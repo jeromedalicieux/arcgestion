@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const profils = [
+  {
+    title: 'Distributeur de matériel informatique',
+    description: 'Complétez votre offre avec des solutions logicielles reconnues.',
+  },
+  {
+    title: 'Cabinet comptable',
+    description: 'Proposez à vos clients des outils de gestion interfacés avec leur comptabilité.',
+  },
+  {
+    title: 'Consultant en gestion',
+    description: 'Enrichissez votre portefeuille de solutions avec des ERP performants.',
+  },
+]
+
+const avantages = [
+  'Accès aux solutions Sage et Codial',
+  'Formation et certification',
+  'Support technique dédié',
+  'Commissions attractives',
+  'Accompagnement commercial',
+  'Outils marketing',
+]
+---
+
+<Layout title="Devenir Partenaire" description="Rejoignez le réseau de partenaires Arc Gestion et développez votre activité avec les solutions Sage et Codial.">
+  <PageHeader
+    title="Devenir Partenaire"
+    subtitle="Vous souhaitez proposer de nouvelles solutions ou services ? Rejoignez notre réseau de partenaires."
+    breadcrumb={[
+      { name: 'La société', href: '/notre-societe' },
+      { name: 'Devenir Partenaire', href: '/notre-societe/devenir-partenaire' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <div class="prose prose-lg mb-12">
+          <p>
+            Vous êtes distributeur de matériel informatique, cabinet comptable ou consultant en gestion ? Vous souhaitez proposer de nouvelles solutions ou services à vos clients ?
+          </p>
+          <p>
+            Arc Gestion vous accompagne dans le développement de votre activité en vous donnant accès aux solutions Sage Petites Entreprises et à l'ERP Codial.
+          </p>
+        </div>
+
+        <!-- Profils -->
+        <h2 class="text-2xl font-extrabold text-gray-800 mb-6">Vous êtes...</h2>
+        <div class="grid md:grid-cols-3 gap-6 mb-12">
+          {profils.map((profil) => (
+            <div class="bg-white rounded-xl shadow-lg p-6">
+              <h3 class="text-lg font-bold text-primary mb-2">{profil.title}</h3>
+              <p class="text-gray-600 text-sm">{profil.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <!-- Avantages -->
+        <div class="bg-secondary/10 rounded-2xl p-8 mb-12">
+          <h2 class="text-2xl font-extrabold text-gray-800 mb-6">Les avantages du partenariat</h2>
+          <div class="grid md:grid-cols-2 gap-4">
+            {avantages.map((avantage) => (
+              <div class="flex items-center gap-3">
+                <svg class="w-5 h-5 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-gray-700">{avantage}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- L'expérience -->
+        <div class="prose prose-lg mb-12">
+          <h2>L'expérience des solutions pour les petites entreprises</h2>
+          <p>
+            Nous accompagnons les petites entreprises dans la mise en place de solutions logicielles depuis 20 ans ! Arc Gestion s'est spécialisée dans les logiciels métiers Sage Petites Entreprises : Apimécanique, Apibâtiment, Apinégoce et Apiservices.
+          </p>
+          <p>
+            Nous avons également développé une expertise reconnue sur l'ERP Codial, avec des consultants certifiés sur l'ensemble des modules.
+          </p>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-primary rounded-2xl p-8 text-center text-white">
+          <h2 class="text-2xl font-extrabold mb-4">Intéressé par un partenariat ?</h2>
+          <p class="text-white/90 mb-6">
+            Contactez-nous pour discuter des opportunités de collaboration.
+          </p>
+          <a href="/contact" class="btn bg-white text-primary hover:bg-gray-100">
+            Nous contacter
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

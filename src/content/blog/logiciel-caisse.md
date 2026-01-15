@@ -1,0 +1,8 @@
+---
+title: "Logiciel de caisse pour les petites structures"
+date: 2012-09-14
+excerpt: "Qu’est-ce qu’un logiciel de caisse? Trouvez votre solution Dans un magasin, la caisse est un point stratégique. Elle doit répondre aux attentes du commerçant pour lui simplifier les encaissements e..."
+category: "Logiciel"
+---
+
+Qu’est-ce qu’un logiciel de caisse? Trouvez votre solution Dans un magasin, la caisse est un point stratégique. Elle doit répondre aux attentes du commerçant pour lui simplifier les encaissements et son quotidien tout en étant rapide pour ne pas faire attendre les clients. Logiciel de caisse et gestion commerciale sont des outils complémentaires et souvent indissociables. Aujourd’hui, la caisse enregistreuse reste une solution simple pour son utilisation. Mais, elle ne permet qu’une gestion limitée du magasin avec un ticket de fin de journée pour le récapitulatif des ventes. De plus en plus, les commerçants s’orientent vers une solution informatique qui facilite la gestion et vous aide dans les tâches quotidiennes (encaissements, statistiques, réapprovisionnements, commandes, factures, devis, gestion du fichier client avec la fidélité, etc.). Apicommerce Apicommerce point de vente, Apicommerce salon de coiffure et Apicommerce Institut de beauté. Apicommerce est composé d’un front-office (logiciel de caisse) et d’un back-office (gestion commerciale). Il peut être utilisé sur un ordinateur de bureau classique ou sur un terminal point de vente (TPV). Les versions salon de coiffure et Esthétique intègrent des fonctionnalités métiers en plus des fonctions de bases d’une caisse et d’un logiciel de gestion. Trouvez votre solution

@@ -1,0 +1,8 @@
+---
+title: "présentation Antoine Zazzera"
+date: 2012-09-25
+excerpt: "La société Arc Gestion évolue. Depuis le 17 septembre 2012, elle a accueilli un nouveau collaborateur. L’accompagnement des étudiants s’accentue, en effet puisqu’il rentre dans la société en tant q..."
+category: "Actualités"
+---
+
+La société Arc Gestion évolue. Depuis le 17 septembre 2012, elle a accueilli un nouveau collaborateur. L’accompagnement des étudiants s’accentue, en effet puisqu’il rentre dans la société en tant qu’apprenti. Voici sa présentation en quelques lignes. J’ai intégré la société Arc Gestion dans le but de préparer ma licence Marketing et Commerce sur Internet à l’IUT d’Evry. En entrant chez Arc Gestion, je souhaite mettre à profit les compétences que je vais acquérir tout au long de l’année à l’université d’Evry. La formation que je vais suivre est orientée sur : marketing sur internet et sur mobile e-commerce communication web management de projets informatiques gestion des technologies de l’information Chez Arc Gestion, j’ai en charge : l’animation du nouveau site internet Arc Gestion gestion du portefeuille clients fidélisation de la clientèle J’ai obtenu mon DUT Techniques de Commercialisation en alternance chez Orange, en tant que conseiller clients. La prise d’assurance, la négociation commerciale et l’autonomie, telles sont les compétences que j’ai acquises au cours de cette expérience.

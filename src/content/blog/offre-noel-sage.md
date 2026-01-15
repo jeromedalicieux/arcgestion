@@ -1,0 +1,8 @@
+---
+title: "Offre spéciale Noël"
+date: 2012-12-24
+excerpt: "Il est bien connu que le père Noël passe uniquement si vous êtes SAGE. Alors, pourquoi pas pour les Petites Entreprises voulant devenir SAGE ?"
+category: "Actualités"
+---
+
+Il est bien connu que le père Noël passe uniquement si vous êtes SAGE. Alors, pourquoi pas pour les Petites Entreprises voulant devenir SAGE ? Pour les enfants sages, le père Noël est généreux en cadeaux. Pour les petites entreprises voulant s’équiper d’un logiciel SAGE PE, le père Noël a déposé sous le sapin du distributeur Arc Gestion, des coupons de remises exceptionnelles valables du 24/12/2012 au 06/01/2013. Pour tous devis réalisés sur la période du 24/12/2012 au 06/01/2013 et dont la commande est validée avant le 31/01/2013, des remises sont appliquées: – Logiciels de gestion commerciale SAGE en version Standard : –10% sur la licence – Logiciels SAGE « API » en version Evolution : –15% sur la licence – Prestation d’installation initiale: 1ère journée de prestation au prix de la 1/2 journée soit 429€HT au lieu de 690€HT (soit -38% de remise) Comment profiter de cette offre? Contactez Arc Gestion au 01.84.184.284 et indiquez « Offre de Noël » Cette offre n’est pas cumulable avec d’autres offres en cours. Elle ne peut être appliqué qu’à un nouveau client « Arc Gestion ». Le client ne doit pas avoir fait l’objet d’un devis ou d’une démonstration par Arc Gestion avant le début de l’offre. Les remises ne s’appliquent pas sur les formations, contrats de maintenance ou d’évolution. Les devis doivent être demandés entre le 24/12/2012 et le 06/01/2013. La commande renvoyée avant le 31/01/2013 et accompagné du règlement.

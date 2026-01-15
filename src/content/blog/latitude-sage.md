@@ -1,0 +1,8 @@
+---
+title: "Offre LATITUDE"
+date: 2012-12-07
+excerpt: "L’offre Latitude Sage sera prochainement proposée par votre distributeur Arc Gestion. Les logiciels métiers Apimécanique, Apinégoce, Apibâtiment, Apicommerce seront proposés avec l’offre LATITUDE p..."
+category: "Actualités"
+---
+
+L’offre Latitude Sage sera prochainement proposée par votre distributeur Arc Gestion. Les logiciels métiers Apimécanique, Apinégoce, Apibâtiment, Apicommerce seront proposés avec l’offre LATITUDE par votre distributeur. L’offre Latitude une offre mensualisée, à la carte, sans engagement proposé par Sage. Arc Gestion vous proposera sa propre LATITUDE : les logiciels « Api » en tout inclus ! Adoptez la bonne attitude avec l’offre LATITUDE de Arc Gestion L’offre LATITUDE de Sage est composée de l’usage du logiciel, des mises à jour avec les évolutions fonctionnelles et légales liées à votre métier. Arc Gestion vous proposera sa propre offre LATITUDE du Tout inclus mensualisé : Logiciel en offre LATITUDE de Sage + Installation + Assistance téléphonique + services connectés + applications métiers + informations sectorielles…. Un abonnement mensuel sans engagement de temps pour maitriser votre informatique et votre budget. Quels sont vos avantages? – De logiciels métiers performants– Un tarif très attractif– L’accès à l’usage d’un logiciel installé dans vos locaux– Une offre est sans engagement de temps (pas de durée minimum de contrat)– D’une maitrise budgétaire grâce à un paiement mensualisé– De services supplémentaires à la carte (ex: interface constructeur dans l’automobile) Et l’offre LATITUDE avec Arc Gestion: – Le « Tout inclus »: logiciel, installation, assistance,… avec un prélèvement mensuel.

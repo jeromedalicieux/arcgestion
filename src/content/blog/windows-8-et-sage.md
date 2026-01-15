@@ -1,0 +1,8 @@
+---
+title: "Sage compatible Windows 8"
+date: 2012-11-19
+excerpt: "Windows 8 est la dernière édition du système d’exploitation de Microsoft. Cette version est commercialisé depuis le 26 octobre 2012. La grande nouveauté de cette version est sa nouvelle interface M..."
+category: "Actualités"
+---
+
+Windows 8 est la dernière édition du système d’exploitation de Microsoft. Cette version est commercialisé depuis le 26 octobre 2012. La grande nouveauté de cette version est sa nouvelle interface Modern UI, qui est adaptée aux écrans tactiles. Windows 8 et les logiciels Sage PE Les logiciels de Sage Petites Entreprises (Apibâtiment, Apicommerce, Apimécanique et Apinégoce) en version 11 et supérieures sont compatibles avec la nouvelle version de Microsoft, Windows 8. En revanche, les logiciels « Api » de Sage, en version antérieures à la 11, ne sont pas compatible avec Windows 8. Les nouveautés de Windows 8 – L’interface, nommée Modern UI, est conçue pour une optimisation de l’usage de la souris et du clavier, et adaptée aux écrans tactiles. – Le Windows Store : Comme Apple avec le Mac App store, Windows propose une boutique d’applications (gratuite ou payante).– Démarrage sécurisé– Démarrage très rapide en quelques secondes – Window 8 Entreprise– Sauvegarde et synchronisation de ses données avec une connexion à un compte Microsoft– Mise à jour simplifiée plus d’info sur le site de microsoft

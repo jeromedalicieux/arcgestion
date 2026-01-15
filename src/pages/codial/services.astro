@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const features = [
+  'Gestion des contrats',
+  'Bons d\'intervention',
+  'Planning techniciens',
+  'Facturation récurrente',
+  'Gestion des équipements',
+  'Historique interventions',
+  'Notifications SMS/Email',
+  'Application mobile',
+  'Synchronisation Google Agenda',
+  'Intégration comptable',
+]
+---
+
+<Layout title="Codial Services" description="Codial Services : gestion des contrats de services, interventions et SAV.">
+  <PageHeader
+    title="Codial Services"
+    subtitle="La solution ERP pour la gestion des contrats de services et interventions."
+    breadcrumb={[
+      { name: 'Codial', href: '/codial' },
+      { name: 'Codial Services', href: '/codial/services' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <div class="prose prose-lg">
+            <p>
+              <strong>Codial Services</strong> vous offre toutes les fonctionnalités d'une gestion commerciale avec en plus la gestion des contrats (forfaitaire, à l'intervention, au point ou à la copie).
+            </p>
+            <p>
+              Vous créez vos bons d'intervention. Vous les planifiez sur l'agenda de vos techniciens. Vos techniciens peuvent être avertis par email ou par SMS de la mise à jour de leur planning visible sur Google Agenda ou Microsoft Exchange.
+            </p>
+            <p>
+              Codial Service peut répondre aussi aux caractéristiques du bâtiment (facture avancement, situation, retenues de garantie,...) pour les chauffagistes, par exemple, ayant une activité de chantier et de maintenance / entretien.
+            </p>
+          </div>
+
+          <h3 class="text-xl font-bold text-gray-800 mt-8 mb-4">Fonctionnalités principales</h3>
+          <div class="grid grid-cols-2 gap-3">
+            {features.map((feature) => (
+              <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-gray-700 text-sm">{feature}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="bg-accent/5 rounded-2xl p-8">
+          <h3 class="text-xl font-bold text-gray-800 mb-6">Types de contrats</h3>
+          <div class="space-y-4">
+            <div class="bg-white rounded-xl p-4">
+              <h4 class="font-bold text-accent mb-2">Forfaitaire</h4>
+              <p class="text-gray-600 text-sm">Contrats à prix fixe avec interventions illimitées ou limitées.</p>
+            </div>
+            <div class="bg-white rounded-xl p-4">
+              <h4 class="font-bold text-accent mb-2">À l'intervention</h4>
+              <p class="text-gray-600 text-sm">Facturation à chaque intervention réalisée.</p>
+            </div>
+            <div class="bg-white rounded-xl p-4">
+              <h4 class="font-bold text-accent mb-2">Au point / À la copie</h4>
+              <p class="text-gray-600 text-sm">Facturation selon l'usage (photocopieurs, etc.).</p>
+            </div>
+          </div>
+
+          <div class="mt-8 space-y-4">
+            <a href="/codial/demonstration" class="btn btn-primary w-full">
+              Démonstration gratuite
+            </a>
+            <a href="/contact" class="btn btn-outline border-accent text-accent hover:bg-accent hover:text-white w-full">
+              Demander un devis
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

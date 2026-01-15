@@ -1,0 +1,8 @@
+---
+title: "Fête des entreprises 2015"
+date: 2015-06-01
+excerpt: "La fête des entreprises est l’occasion pour les entrepreneurs de se recontrer, de découvrir de nouvelles opportunités d’affaires et d’avoir de belles offres commerciales. Arc Gestion fête les entre..."
+category: "Actualités"
+---
+
+La fête des entreprises est l’occasion pour les entrepreneurs de se recontrer, de découvrir de nouvelles opportunités d’affaires et d’avoir de belles offres commerciales. Arc Gestion fête les entreprises pour qu’elles deviennent très SAGE ! Après la fête de mère, la fête des pères, la fête des grands-mères, la fête des secrétaires, la fête des voisins, la fête des entreprises est arrivée est France depuis plusieurs années. Généralement à l’initiative des associations de commerçants, d’artisans, de chefs d’entreprises ou de chambres des métiers ou des commerces et de l’industrie, elle est organisée partout en France et sous différents noms. Comme Arc Gestion est dans son temps. Et, comme nous travaillons qu’avec des entreprises, nous avons souhaité à notre façon, vous offrir un cadeau. Pour vous souhaitez bonne fête, nous vous proposons de 10 à 25% de remise sur toute notre boutique en ligne SAGE avec le code remise 25515. Le code remise 25515 est valable du 1er Juin au 30 Juin sur toutes la boutique de logiciels SAGE Apimécanique, Apinégoce, Apibâtiment, Apicommerce et la comptabilité Sage Petites Entreprises ainsi que sur les prestations et contrats associés. Votre entreprise sera encore plus SAGE et vous aurez ainsi tous les outils pour vous développer en travaillant efficacement sur vos devis, factures, fichier client, stocks,… Pour plus de renseignements contactez nos conseillers au 01.84.184.284.

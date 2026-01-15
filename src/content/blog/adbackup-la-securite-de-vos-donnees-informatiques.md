@@ -1,0 +1,8 @@
+---
+title: "AdBackup : la sécurité de vos données informatiques"
+date: 2014-10-21
+excerpt: "Pensez à sécuriser vos données informatiques !"
+category: "Actualités"
+---
+
+Pensez à sécuriser vos données informatiques ! 80% des entreprises qui ont perdu leurs données informatiques déposent le bilan en moins de 2 ans ! Ne prenez plus de risques inutiles ! Un bug informatique, un cambriolage, une innondation ou encore une mauvaise manipulation et toutes vos données s’envolent. Etant donné que vous êtes pénalement responsable de celles-ci, Arc Gestion vous conseille de les sécuriser pour seulement 25€ HT/mois et vous offre le premier mois ainsi que l’installation. Qu’est-ce que j’y gagne, concrètement ? Les clients qui ont choisi la solution AdBackup pour sécuriser leurs données bénéficient : – d’une sécurité et d’une confidentialité totales : les données sont cryptées et donc illisibles même pour le service technique AdBackup. – d’une garantie de restauration : une garantie à hauteur de 2 millions d’euros. – d’un support ouvert 7j/7 et 24h/24 : une question ou une difficulté ? AdBackup sera toujours disponible pour vous aider. 95% des clients AdBackup sont satisfaits des services. 70% des entreprises du CAC 40 font confiance à AdBackup dont BNP, EDF ou encore Veolia. Gérez votre entreprise sereinement et assurez la sécurité de vos données informatiques pour seulement 25€ HT/mois. Je profite de l’installation (99€ HT) offerte et d’un mois gratuit :

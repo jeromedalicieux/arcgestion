@@ -1,0 +1,8 @@
+---
+title: "Qu’est-ce que Batigest Connect ?"
+date: 2019-12-09
+excerpt: "En 2020, Batigest deviendra Batigest Connect, mais qu’est-ce que ce changement de nom engendrera? Premièrement, Batigest Connect regroupera un ensemble de fonction SQL Server & SQL Express Innovati..."
+category: "Actualités"
+---
+
+En 2020, Batigest deviendra Batigest Connect, mais qu’est-ce que ce changement de nom engendrera? Premièrement, Batigest Connect regroupera un ensemble de fonction SQL Server & SQL Express Innovation (Dossier d’ouvrages executés, mobilité et Office 365) Partenariats & fonctionnel métier Sage 50cloud & 100cloud Comptabilité Modernisation (Architecture, IntuiSage) Business intelligence Sage BI reporting (Tableaux de bord décisionnels sur Excel) Légal Deuxièmement, la version 1 de Batigest Connect arrivera en juin 2020 avec son lot de nouveautés: Expérience client (Nouvelle interface & dashboard) Métier (Sage BI Reporting SQL, Partenariat industriels & grossistes comme Knauff, Isover etc…) Mobilité (Développement de marques blanches) Par la suite la version 2 arrivera en octobre 2020 (à confirmer) regroupant Métier (Paiements directs sous-traitants, Avenants et situations, suite des partenariats industriels et grossistes Mobilité (Office 365 étape 1) Et enfin la dernière mise à jour de l’année 2020 mais qui sera en février 2021. La version 3 Métier (Nature d’éléments, avoir d’acomptes, règlements multi-factures, encore une augmentation des partenariats industriels et grossistes) Mobilité (Données mobiles, Office 365 étape 2) Ce calendrier étant sur du moyen/long terme, des changements peuvent avoir lieu durant les mois à venir, Arc Gestion vous informera des possibles changements, via notre site ou notre Twitter!

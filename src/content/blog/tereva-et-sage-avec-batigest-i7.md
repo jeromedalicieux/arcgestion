@@ -1,0 +1,8 @@
+---
+title: "Téréva et Sage avec Batigest i7"
+date: 2016-06-24
+excerpt: "Sage avait passé un partenariat avec Sonepar. Sage vient de signer un nouveau partenariat avec Téréva. Ces partenariat repose principalement sur une liaison entre le logiciel Batigest i7 et les sys..."
+category: "Actualités"
+---
+
+Sage avait passé un partenariat avec Sonepar. Sage vient de signer un nouveau partenariat avec Téréva. Ces partenariat repose principalement sur une liaison entre le logiciel Batigest i7 et les systèmes informatiques des 2 enseignes. Grâce à Sage e-tarif qui repose sur le catalogue Tariféo, les clients équipés de Batigest i7 (ou Sage Multi Devis Entreprise) peuvent accèder en temps réél aux catalogues de produits, leurs tarifs avec leurs propres remises et les disponibilités des agences et plate-formes du groupe Sonepar et Téréva. Sonepar pour la partie électrique, permet aux artisans utilisant Apibat Batigest i7 de faire leurs offres plus rapidement en ayant accès à tous les tarifs et les stocks. Téréva pour la partie plomberie (l’électricité arrivera dans un second temps), permet aux plombiers de consulter les disponibilités et les prix des produits dont ils ont besoin pour leur chantier afin d’établir des chiffrages précis. Dans les 2 cas, la société du batiment peuvent passer commande directement chez Sonepar ou Téréva depuis Apibatiment Batigest i7. Pour utiliser les liaisons avec Sonépar ou Téréva, il faut: – Avoir le logiciel Batigest i7 – Etre abonné au service Sage e-tarif – Etre client chez Sonépar OU Téréva (selon enseigne de rattachement) – Avoir un compte et un accès ouvert par Sonépar ou Téréva (selon enseigne de rattachement)

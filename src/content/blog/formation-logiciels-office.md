@@ -1,0 +1,8 @@
+---
+title: "Formation logiciels Office 2019/365"
+date: 2019-12-02
+excerpt: "En plus des formations Sage et Codial. Arc Gestion propose dès aujourd’hui une formation sur chaque logiciel du dernier pack Office (365/2019). Ainsi, devenez un expert des logiciels comme PowerPoi..."
+category: "Actualités"
+---
+
+En plus des formations Sage et Codial. Arc Gestion propose dès aujourd’hui une formation sur chaque logiciel du dernier pack Office (365/2019). Ainsi, devenez un expert des logiciels comme PowerPoint, Excel ou Word grâce à notre journée de formation. Exemple d’une journée de formation sur PowerPoint: Objectif : Utiliser PowerPoint pour des présentations professionnelles Public : Débutant sur PowerPoint mais ayant une connaissance de l’environnement du pack Office : Word ou Excel. Programme : Comprendre l’environnement et les règles de création d’un diaporama Connaitre l’environnement de PowerPoint Les règles de création d’une présentation efficace Les types de diapositive Élaborer un diaporama Création d’une présentation simple avec plusieurs diapositives Les outils de création : ajout de textes, de formes, d’images, de vidéos,… Animer une présentation Ajouter des animations sur les diapositives Ajouter des transitions entre diapositives Régler les ordres et les temps d’affichage des objets et des diapositives Créer des support de présentation Imprimer le diaporama Ajouter des commentaires et les imprimer avec le diaporama Générer un fichier PDF Créer une vidéo avec PowerPoint Durée de formation : 1 jour N’hésitez à pas nous contacter au 01.84.184.284 ou prendre rendez-vous avec l’un de nos experts.

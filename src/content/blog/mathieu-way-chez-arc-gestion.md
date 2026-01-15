@@ -1,0 +1,8 @@
+---
+title: "Mathieu Way chez Arc Gestion"
+date: 2015-07-17
+excerpt: "Mathieu intègue l’équipe Arc Gestion."
+category: "Actualités"
+---
+
+Mathieu intègue l’équipe Arc Gestion. Mathieu Way a un parcours atypique. Après un Bac Pro en vente en alternance dans le milieu du bricolage, il a fait une 1ère année de licence informatique avant de s’orienter vers un BTS SIO SLAM (développement informatique). A sein de la société Arc Gestion, il occupera un poste de Technicien informatique. Il aura en charge le développement d’outils informatiques pour les usages internes de la société puis ceux des clients. Il sera également formé sur les logiciels Sage Apimécanique, Apibâtiment et Apinégoce pour assister les utilisateurs. Il pourra notamment développer des scripts spécifiques sur ces logiciels. Mathieu est un compétiteur. Depuis plus de 7 ans, il pratique le roller de vitesse au sein du club de Brétigny sur Orge. Selon les courses et ses entrainements, Mathieu se classe régulièrement dans le TOP 10 Français (pour ne pas dire Top 5) dans sa catégorie. Il a plusieurs fois participé aux Championnats de France sur route, marathon ou piste. Son esprit de compétition l’aidera à se relever après chaque problème technique rencontré comme il le fait régulièrement après une chute en roller. Sa connaissance du commerce permettra de comprendre les besoins des utilisateurs. Ses capacités techniques complèteront la palette des possibilités de Arc Gestion. Pour contacter Mathieu, contactez-le 01.84.184.284.

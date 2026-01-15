@@ -1,0 +1,8 @@
+---
+title: "Fidélisez votre clientèle GRATUITEMENT"
+date: 2014-11-24
+excerpt: "Cette semaine, Arc Gestion vous conseille dans la fidélisation de votre clientèle."
+category: "Actualités"
+---
+
+Cette semaine, Arc Gestion vous conseille dans la fidélisation de votre clientèle. Comment fidéliser votre clientèle, simplement et gratuitement ? Vous avez une entreprise dans le secteur du bâtiment, du commerce, de la mécanique ou du négoce ? Il est indispensable de fidéliser votre clientèle pour pérenniser la situation de votre entreprise et gagner de la valeur sur le moyen et long terme. Pour transformer vos clients ponctuels en clients fidèles, qui reviendront régulièrement, il faut que vous donniez l’image d’une entreprise qui évolue et qui propose des offres personnalisées à vos clients existants. Connaissez-vous l’e-mailing ? Grâce aux campagnes mail, il n’a jamais été aussi simple pour vous, entreprise, de communiquer auprès de votre clientèle. Nous vous recommandons fortement de réaliser des campagnes mail via des outils gratuits mais complets. Nous retiendrons notamment MAILCHIMP qui vous propose des thèmes simples et efficaces. Mailchimp est donc un outil gratuit d’e-mailing et fait partie des outils les plus intuitifs disponibles en SAAS (disponible directement sur le web). Créez votre campagne mail en 4 étapes : Déterminez l’objet de votre mail Rédigez le contenu du mail Ajouter une image ou deux Envoyez, et c’est tout ! Astuce : Tous les logiciels Api (Apinégoce, Apicommerce, Apimécanique, et Apibâtiment) vous permettent d’enregistrer un fichier client complet et utile. Exportez vos adresses mail et importez-les sur mailchimp, tout simplement.

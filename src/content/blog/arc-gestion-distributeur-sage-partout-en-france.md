@@ -1,0 +1,8 @@
+---
+title: "Arc Gestion, distributeur Sage partout en France"
+date: 2015-11-13
+excerpt: "Arc Gestion est distributeur Sage. Historiquement basé en Ile de France et plus particulièrement en Essonne, Arc Gestion a une majorité de ses clients sur son secteur. Depuis 2008, Arc Gestion trai..."
+category: "Actualités"
+---
+
+Arc Gestion est distributeur Sage. Historiquement basé en Ile de France et plus particulièrement en Essonne, Arc Gestion a une majorité de ses clients sur son secteur. Depuis 2008, Arc Gestion traite des clients partout en France (voire en dehors de la France) par l’intermédiaire des technologies de l’internet. Nous venons de remettre à jour la carte des positions de nos clients. 1 point rouge = 1 ou plusieurs clients sur la ville. 1 point bleu = 1 ou plusieurs partenaires techniques Les zones d’interventions sont données à titre indicatif. Les déplacements en Essonne: Viry-chatillon, Morsang sur Orge, Juvisy, Savigny sur Orge, Epinay sur Orge, Grigny, Evry, Ris-Orangis, Fleury-Mérogis,… dans un rayon de 10 Km autour de Viry-Chatillon sont offerts. Les déplacement dans le 91 et le 77 sont facturés forfaitairement. Les déplacement en Ile de France (75, 77, 78, 92, 93, 94, 95) sont facturés au forfait selon la durée d’intervention et le temps de déplacement. Les déplacements en « Petite Province » sont facturés au kilomètre. Les déplacements en dehors de ses zones sont à la charge totale du client (kilométrage, train, avion, hotel, repas,…)

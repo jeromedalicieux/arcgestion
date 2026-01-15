@@ -1,0 +1,8 @@
+---
+title: "Budget formation 2012"
+date: 2012-11-27
+excerpt: "Il n’est pas trop tard pour commencer l’année 2013 bien formé. Les budgets formations 2012 doivent être utilisés."
+category: "Actualités"
+---
+
+Il n’est pas trop tard pour commencer l’année 2013 bien formé. Les budgets formations 2012 doivent être utilisés. Les entreprises cotisent tous les ans pour de la formation professionnelle. Ces fonds sont collectés par les OPCA (Organisme paritaire collecteur agréé). Chaque société peut ainsi disposer d’une enveloppe budgétaire pour de la formation professionnelle. Arc Gestion en tant qu’organisme de formation déclaré est apte à vous former et à entrer dans le processus de prise en charge de la formation professionnelle par les OPCA. Ainsi, vous pouvez demander le remboursement de la formation assurée par Arc Gestion auprès de votre OPCA. Celui-ci, après étude de votre dossier, décidera de financer tout ou partie de votre formation. Les budgets de formation sont définis par les OPCA sur une année civile. Si vous ne demandez pas la prise en charge de formation sur 2012, votre budget ne sera pas reporté sur 2013. Vous avez besoin de formations, Arc Gestion peut encore assurer des formations sur l’année 2012 afin que vous puissiez les faire financer sur cet exercice budgétaire. Certains OPCA n’ont pas distribué assez de fond. Les enveloppes budgétaires entreprises ont été revues à la hausse. Par exemple, pour certaines sociétés dépendant du FAFIEC, l’enveloppe est passée de 1500€ à 3500€. Renseignez-vous auprès de votre OPCA pour connaitre le montant possible de formation sur l’année 2012 pour votre entreprise et contactez Arc Gestion pour mettre en place les plans de formation répondant à vos attentes.

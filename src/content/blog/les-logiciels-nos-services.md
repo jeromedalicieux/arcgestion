@@ -1,0 +1,8 @@
+---
+title: "Les logiciels, nos services"
+date: 2014-12-19
+excerpt: "Arc Gestion est distributeur certifié et agréé Sage Petites Entreprises. Nous vous fournissons bien plus qu’un logiciel…."
+category: "Actualités"
+---
+
+Arc Gestion est distributeur certifié et agréé Sage Petites Entreprises. Nous vous fournissons bien plus qu’un logiciel…. En faisant appel à Arc Gestion pour vos logiciels Apimecanique, Apinegoce ou Apibatiment, nous pouvons faire bien plus que vous fournir un logiciel: – Le conseil d’un expert sur les logiciels Sage Petites Entreprises. – Une connaissance de votre métier pour vous accompagner dans votre gestion et votre comptabilité. – Une assistance technique qui va au-delà d’un support téléphonique. La télémaintenance est une réponse rapide et efficace quand vous avez une question ou un souci technique. – Toute l’équipe Arc Gestion est en France et parle Français. – Un organisme de formation pour vous faire monter en compétence sur les logiciels « Api » et vous permettre la prise en charge des frais de formation par votre OPCA – Une expertise reconnue par Sage qui nous a délivré les certifications sur les lignes métier Mécanique, Négoce et Batiment ainsi que l’agrément Sage PE. – Une connaissance du développement de script d’édition sur les logiciels Apimecanique, apinegoce et apibat batigest. Arc Gestion a été certifié par Sage sur le développement de script. – « Nous faisons bien que ce que l’on connait ! »: Arc Gestion n’assure des prestations que sur les logiciels Sage PE. Gage d’une qualité de service et d’un engagement fort dans le domaine des logiciels. Toutefois, nous travaillons avec un réseau d’expert qui peuvent intervenir sur le matériel, l’infrastructure,…

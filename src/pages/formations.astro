@@ -1,0 +1,103 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PageHeader from '../components/PageHeader.astro'
+---
+
+<Layout title="Formations" description="Arc Gestion est un organisme de formation déclaré, certifié Qualiopi. Formations sur les logiciels Codial, Sage, bureautique et plus.">
+  <PageHeader
+    title="Formations"
+    breadcrumb={[{ name: 'Formations', href: '/formations' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="max-w-4xl mx-auto prose prose-lg">
+        <p>
+          Arc Gestion est un organisme de formation déclaré en préfecture de région Ile de France,
+          déclaré sur Data-Dock et certifié <strong>Qualiopi</strong> pour les actions de formation.
+          Nous proposons des formations dans plusieurs domaines :
+        </p>
+
+        <h2>Informatique de gestion</h2>
+
+        <h3>CODIAL : gamme Négoce, Bâtiment et Services</h3>
+        <p>
+          Arc Gestion est distributeur agréé Codial depuis 2017. Nos formations sont décomposées en modules :
+          Tronc commun, chaîne des ventes, chaîne des achats, gestion des stocks, Comptabilité et suivi financier,
+          suivi des contrats, planning des ressources, gestion des interventions techniques, CRM,
+          administration et personnalisation,...
+        </p>
+        <p>
+          Les formations sont personnalisées selon votre activité et votre organisation.
+        </p>
+
+        <h3>SAGE Batigest Connect</h3>
+        <p>
+          Nos formateurs vous forment sur Batigest depuis 2008. Ils ont connu les versions Standard, Evolution,
+          i7 et Connect. La formation est découpée en plusieurs modules (Tronc commun avec le traitement des ventes,
+          Chantier avancé avec la gestion des achats et des heures travaillées, Contrat/SAV).
+        </p>
+        <p>
+          Ils ont été certifiés par SAGE sur Batigest Connect.
+        </p>
+
+        <h3>SAGE 50C Gestion commerciale</h3>
+        <p>
+          La formation Sage 50C Gestion commerciale est assurée par des formateurs certifiés par SAGE.
+          Vous apprendrez à créer vos fichiers (clients, fournisseurs, articles) et à rédiger vos documents
+          commerciaux (devis, factures).
+        </p>
+
+        <h3>APIMECANIQUE</h3>
+        <p>
+          Cet ancien logiciel Sage, maintenant commercialisé par SINARI, est dédié aux garages automobiles.
+          Vous serez formé à gérer votre garage au quotidien. Selon les modules activés dans votre licence,
+          nos formations seront complétées par : le VO/VN, la carrosserie, la vente comptoir, le dépannage,...
+        </p>
+
+        <h3>EBP Méca (MRoad)</h3>
+        <p>
+          Formation sur le logiciel EBP Méca pour la gestion des garages automobiles.
+        </p>
+
+        <h2>Comptabilité</h2>
+
+        <h3>SAGE 50C Comptabilité</h3>
+        <p>
+          Que vous soyez utilisateur de l'ancien logiciel Sage Comptabilité i7 ou directement de Sage 50C,
+          nos formations vous feront monter en compétence dans le traitement de la comptabilité allant de
+          la saisie comptable jusqu'au bilan.
+        </p>
+        <p>
+          <em>Nos formations sont techniques. Nous vous formons à l'utilisation d'un logiciel.
+          Nous ne vous formons pas au métier de comptable.</em>
+        </p>
+
+        <h2>Travail Collaboratif</h2>
+        <ul>
+          <li>Teams : le tchat en ligne</li>
+          <li>OneDrive</li>
+          <li>SharePoint</li>
+        </ul>
+
+        <h2>Bureautique</h2>
+        <ul>
+          <li>Word : le traitement de texte</li>
+          <li>Excel : le tableur</li>
+          <li>PowerPoint : le logiciel de présentation</li>
+          <li>Outlook : l'outil de gestion des mails et agendas</li>
+        </ul>
+
+        <h2>Sécurité informatique</h2>
+        <ul>
+          <li>Keeper : la gestion de votre coffre fort à mot de passe pour sécuriser toutes vos données</li>
+        </ul>
+
+        <div class="mt-8 flex gap-4 flex-wrap">
+          <a href="/centre-de-formation-professionnelle" class="btn btn-secondary">En savoir plus sur notre centre</a>
+          <a href="/contact" class="btn btn-primary">Demander une formation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

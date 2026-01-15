@@ -1,0 +1,8 @@
+---
+title: "Promotion bonus Codial"
+date: 2020-03-17
+excerpt: "Vous souhaitez changer d’ERP? votre solution actuelle ne réponds plus à vos attentes? Venez profiter d’une remise exceptionnelle sur Codial. Dès aujourd’hui, bénéficiez jusqu’à 600€ de réduction im..."
+category: "Actualités"
+---
+
+Vous souhaitez changer d’ERP? votre solution actuelle ne réponds plus à vos attentes? Venez profiter d’une remise exceptionnelle sur Codial. Dès aujourd’hui, bénéficiez jusqu’à 600€ de réduction immédiate! Retrouvez ici, les principales nouveautés de Codial 14. Tarif Codial PME : – 200€ avec l’opération. Tarif Codial Entreprise : – 600€ avec l’opération. Les utilisateurs suivants bénéficient du tarif normal. Le tarif des utilisateurs suivants est de base déjà réduit par rapport au 1er utilisateur. Comment profiter de cette promotion? La seule condition pour être éligible à notre promotion est d’être déjà équipé d’une solution (voir la liste ci-dessous). Les solutions suivantes, sans contrainte de nombre de postes en place : – SAGE Apibâtiment/Batigest, Apinégoce, Apiservices, Apicommerce, Multidevis (versions Access et SQL), Gestion commerciale 30/100/i7. – EBP Bâtiment ou Gestion Commerciale (hors versions devis-factures). – CIEL Bâtiment ou Gestion Commerciale (hors versions devis-factures). – DIVALTO. – ONAYA. – LSE. – PROGIB/OSLO. La liste étant exhaustive, si votre solution n’est malheureusement pas mentionnée ci-dessus, vous n’êtes pas éligible à la promotion. Nous pouvons vous accompagner dans cette transition en toute sécurité vers votre nouvelle solution Codial, n’hésitez à pas nous contacter au 09.72.47.67.37 et prendre rendez-vous avec l’un de nos experts.

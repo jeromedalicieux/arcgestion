@@ -1,0 +1,113 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const modules = [
+  {
+    title: 'Codial Bâtiment',
+    description: 'Solution complète pour les entreprises du BTP : devis, factures, situations, retenues de garantie.',
+    href: '/codial/batiment',
+    icon: '🏗️',
+  },
+  {
+    title: 'Codial Négoce',
+    description: 'Gestion commerciale avancée avec CRM et GED intégrés pour le commerce BtoB.',
+    href: '/codial/negoce',
+    icon: '📦',
+  },
+  {
+    title: 'Codial Services',
+    description: 'Gestion des contrats de services, bons d\'intervention et planning techniciens.',
+    href: '/codial/services',
+    icon: '🔧',
+  },
+  {
+    title: 'Modules & Extensions',
+    description: 'Personnalisez Codial avec des modules complémentaires : GMAO, planning, décisionnel...',
+    href: '/codial/modules',
+    icon: '🧩',
+  },
+]
+
+const features = [
+  'Gestion commerciale complète',
+  'CRM intégré',
+  'GED (Gestion Électronique de Documents)',
+  'Planning et interventions',
+  'Mobilité (tablette, smartphone)',
+  'Tableaux de bord décisionnels',
+  'Multi-sociétés / Multi-agences',
+  'Interfaçage comptable',
+]
+---
+
+<Layout title="Logiciel Codial" description="Codial est un ERP modulable pour les TPE et PME. Bâtiment, Négoce, Services. Arc Gestion partenaire agréé Codial.">
+  <PageHeader
+    title="Logiciel Codial"
+    subtitle="Codial est un ERP / PGI modulable pour les TPE et PME. Il répond aux contraintes des métiers du Négoce, Bâtiment et Services."
+    breadcrumb={[{ name: 'Codial', href: '/codial' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <!-- Introduction -->
+      <div class="max-w-4xl mx-auto text-center mb-16">
+        <p class="text-xl text-gray-600 mb-6">
+          Codial est un ERP pour les entreprises de 1 à plus de 100 utilisateurs. Il intègre des modules pour les sociétés du Bâtiment, du Service, de la Production, du Négoce et du commerce.
+        </p>
+        <p class="text-lg text-gray-600">
+          Codial est plus qu'une gestion commerciale métier. L'ERP ouvre des fonctionnalités annexes à une gestion commerciale « classique » (GED, Planning, CRM...).
+        </p>
+      </div>
+
+      <!-- Modules -->
+      <h2 class="text-3xl font-extrabold text-gray-800 mb-8 text-center">Les solutions Codial</h2>
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        {modules.map((module) => (
+          <a href={module.href} class="group bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-1">
+            <div class="text-5xl mb-4">{module.icon}</div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-accent transition-colors">
+              {module.title}
+            </h3>
+            <p class="text-gray-600">{module.description}</p>
+          </a>
+        ))}
+      </div>
+
+      <!-- Features -->
+      <div class="bg-accent/5 rounded-2xl p-8 md:p-12 mb-16">
+        <h2 class="text-3xl font-extrabold text-gray-800 mb-8 text-center">Fonctionnalités clés</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {features.map((feature) => (
+            <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+              <svg class="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-700">{feature}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Arc Gestion Partenaire -->
+      <div class="bg-primary rounded-2xl p-8 md:p-12 text-white">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-3xl font-extrabold mb-4">Arc Gestion, partenaire agréé Codial</h2>
+            <p class="text-white/90 mb-4">
+              Nos consultants certifiés vous accompagnent dans la mise en place de Codial : analyse des besoins, installation, paramétrage, formation et support.
+            </p>
+            <p class="text-white/90">
+              Avec plus de 20 ans d'expérience, nous maîtrisons parfaitement l'ensemble des modules Codial.
+            </p>
+          </div>
+          <div class="text-center">
+            <a href="/codial/demonstration" class="btn bg-white text-primary hover:bg-gray-100">
+              Demander une démonstration gratuite
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

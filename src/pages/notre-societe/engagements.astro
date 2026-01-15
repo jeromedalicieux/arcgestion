@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const engagements = [
+  {
+    title: 'Écoute et conseil',
+    description: 'Nous prenons le temps de comprendre vos besoins pour vous proposer la solution la plus adaptée à votre activité.',
+    icon: '👂',
+  },
+  {
+    title: 'Accompagnement personnalisé',
+    description: 'Un interlocuteur dédié vous accompagne tout au long de votre projet, de l\'analyse à la mise en production.',
+    icon: '🤝',
+  },
+  {
+    title: 'Formation de qualité',
+    description: 'Nos formateurs certifiés vous transmettent leur expertise pour une prise en main optimale de vos outils.',
+    icon: '📚',
+  },
+  {
+    title: 'Support réactif',
+    description: 'Notre équipe d\'assistance est disponible pour répondre à vos questions et résoudre vos problèmes rapidement.',
+    icon: '⚡',
+  },
+  {
+    title: 'Transparence',
+    description: 'Des devis clairs et détaillés, sans surprise. Nous vous informons à chaque étape de votre projet.',
+    icon: '✅',
+  },
+  {
+    title: 'Innovation continue',
+    description: 'Nous restons à la pointe de la technologie pour vous proposer les meilleures solutions du marché.',
+    icon: '🚀',
+  },
+]
+---
+
+<Layout title="Nos Engagements" description="Qualité, proximité et réactivité au service de votre entreprise. Découvrez nos engagements.">
+  <PageHeader
+    title="Nos Engagements"
+    subtitle="Chez Arc Gestion, nous mettons tout en œuvre pour garantir votre satisfaction. Découvrez nos engagements."
+    breadcrumb={[
+      { name: 'La société', href: '/notre-societe' },
+      { name: 'Nos Engagements', href: '/notre-societe/engagements' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {engagements.map((engagement) => (
+          <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+            <div class="text-5xl mb-4">{engagement.icon}</div>
+            <h3 class="text-xl font-bold text-gray-800 mb-3">{engagement.title}</h3>
+            <p class="text-gray-600">{engagement.description}</p>
+          </div>
+        ))}
+      </div>
+
+      <!-- Garanties -->
+      <div class="mt-16 bg-primary rounded-2xl p-8 md:p-12 text-white">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-3xl font-extrabold mb-6">Notre garantie qualité</h2>
+            <p class="text-white/90 text-lg mb-4">
+              Notre taux de renouvellement de contrat d'assistance avoisine les 100%. C'est la meilleure preuve de la satisfaction de nos clients.
+            </p>
+            <p class="text-white/90 text-lg">
+              Nous nous engageons à vous fournir un service de qualité, avec des équipes compétentes et réactives.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="inline-block bg-white/10 backdrop-blur rounded-xl p-8">
+              <div class="text-6xl font-extrabold text-secondary mb-2">~100%</div>
+              <div class="text-xl text-white/80">Taux de renouvellement</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section bg-gray-50">
+    <div class="container text-center">
+      <h2 class="text-3xl font-extrabold text-gray-800 mb-6">Faites confiance à Arc Gestion</h2>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        Rejoignez les plus de 1000 entreprises qui nous font confiance depuis plus de 20 ans.
+      </p>
+      <a href="/contact" class="btn btn-primary">
+        Contactez-nous
+      </a>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PageHeader from '../components/PageHeader.astro'
+---
+
+<Layout title="Paiement des produits et services" description="Différents moyens de paiements sont possibles : carte bancaire, virement bancaire, PayPal. Nous vous proposons aussi la facilité de paiement.">
+  <PageHeader
+    title="Paiement des produits et services"
+    breadcrumb={[{ name: 'Paiement', href: '/paiement-securise' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="max-w-4xl mx-auto prose prose-lg">
+        <p>
+          La société Arc Gestion accepte plusieurs moyens de paiement pour ses ventes de prestations et de logiciels.
+          Les modes de paiements apparaissent lors de la validation du panier selon des critères d'éligibilité définis
+          (produits, services, montant de la commande,...).
+        </p>
+
+        <h2>Paiement par Carte Bancaire avec sécurité 3D Secure</h2>
+        <p>
+          Arc Gestion s'appuie sur une plate-forme de paiement sécurisée pour assurer un paiement sécurisé
+          à la norme <strong>3D SECURE</strong> et un protocole HTTPS. Dès la bonne fin de la transaction après
+          demande d'autorisation automatique à votre banque, votre commande sera validée par nos services.
+        </p>
+
+        <p>
+          <strong>Paiement en 3 fois par carte bancaire</strong> : Vous serez débité de 3 mensualités sur votre carte bancaire.
+          Ce service est disponible selon certains critères d'éligibilité.
+        </p>
+
+        <h2>Paiement par PayPal</h2>
+        <p>
+          Arc Gestion s'appuie sur la plate-forme de paiement PayPal. Avec ce mode de paiement, des frais de gestion
+          administrative sont calculés automatiquement. Dès que nous sommes prévenus par PayPal de la bonne fin de
+          procédure de votre paiement, votre <strong>commande est validée</strong>.
+        </p>
+
+        <h2>Paiement par virement bancaire</h2>
+        <p>
+          Arc Gestion vous communique ses références bancaires. Vous réalisez un virement bancaire.
+          A réception du virement sur le compte, votre commande est validée.
+        </p>
+        <p>
+          A réception du paiement, <strong>la commande est validée.</strong>
+        </p>
+
+        <h2>Paiement par chèque</h2>
+        <p>
+          Adressez votre chèque à Arc Gestion, 8 rue Octave Longuet, 91170 Viry-Châtillon.
+        </p>
+        <p>
+          Pour les nouveaux clients, la <strong>commande sera validée 14 jours</strong> après la remise en banque
+          de votre chèque (en raison du délai de rejet bancaire). Cette procédure a été mise en place face aux
+          risques d'impayés. Pour les clients connus de Arc Gestion, ce délai pourra être revu.
+        </p>
+
+        <h2>Paiement par prélèvement bancaire</h2>
+        <p>
+          Arc Gestion est référencé pour réaliser des prélèvements bancaires. Pour les abonnements, une autorisation
+          de prélèvement vous sera adressée. Arc Gestion vous délivrera un MANDANT UNIQUE à la norme SEPA avec
+          votre numéro de RUM.
+        </p>
+        <p>
+          Pour la 1ère commande, <strong>un délai de 12 jours</strong> après l'émission du prélèvement est nécessaire
+          pour contrôler la mise en place de la chaîne de prélèvement et la solvabilité du compte à prélever
+          (délai de rejet bancaire).
+        </p>
+
+        <div class="mt-8">
+          <a href="/contact" class="btn btn-primary">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

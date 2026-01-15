@@ -1,0 +1,8 @@
+---
+title: "RGPD : Arc Gestion vous accompagne avec CGC Avocats"
+date: 2018-10-16
+excerpt: "Vous avez probablement été informés de l’entrée en vigueur du Règlement Général sur la Protection des Données, dit RGPD, à la date du 25 mai 2018. Ce texte renforce notablement les droits des perso..."
+category: "Actualités"
+---
+
+Vous avez probablement été informés de l’entrée en vigueur du Règlement Général sur la Protection des Données, dit RGPD, à la date du 25 mai 2018. Ce texte renforce notablement les droits des personnes sur leurs données et, corrélativement, les obligations des entreprises qui les collectent, les utilisent ou les conservent. Ce sujet a été abondamment traité lors de l’entrée en vigueur du texte car les sanctions applicables en cas de manquement à ces obligations ont été considérablement renforcées par rapport à celles prévues par la loi « Informatique et Libertés » de 1978 : CNIL RGPD. Toutes les entreprises doivent donc, si elles ne l’ont déjà fait, engager rapidement une démarche de mise en conformité avec le RGPD. Il ne s’agit pas simplement de satisfaire formellement à une obligation légale mais plutôt d’engager une réflexion de fond en vue de l’adaptation de votre organisation à ce nouvel environnement et d’en tirer le meilleur parti. En partenariat avec le cabinet CGC AVOCATS, intervenant essentiellement auprès d’une clientèle de TPE-PME, nous sommes en mesure de vous accompagner dans cette démarche, avec des solutions adaptées à votre situation. Ce cabinet d’avocats rédigera le rapport d’audit dans le cadre de la RGPD et les préconisations avec une garantie juridique associée. Pour plus d’informations, vous pouvez contacter vos interlocuteurs Arc Gestion habituels au 01.84.184.284 ou par mail.

@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const competences = [
+  {
+    title: 'Sage Petites Entreprises',
+    products: ['Sage Batigest i7', 'Sage Batigest Connect', 'Sage Apinégoce', 'Sage Apimécanique', 'Sage 50C Comptabilité', 'Sage 50C Gestion Commerciale'],
+    color: 'primary',
+  },
+  {
+    title: 'ERP Codial',
+    products: ['Codial Bâtiment', 'Codial Négoce', 'Codial Services', 'Codial Production', 'Modules complémentaires'],
+    color: 'accent',
+  },
+  {
+    title: 'Autres solutions',
+    products: ['EBP Méca MROAD', 'ApiMécanique by ICare', 'Solutions de télésauvegarde', 'Intégrations comptables'],
+    color: 'secondary',
+  },
+]
+
+const services = [
+  { name: 'Conseil et accompagnement', icon: '💡' },
+  { name: 'Installation et configuration', icon: '⚙️' },
+  { name: 'Personnalisation', icon: '🎨' },
+  { name: 'Formation des utilisateurs', icon: '📚' },
+  { name: 'Assistance et support', icon: '🛠️' },
+  { name: 'Télémaintenance', icon: '🖥️' },
+]
+---
+
+<Layout title="Nos Compétences" description="Expertise reconnue sur les logiciels Sage et Codial. Formation, installation, paramétrage et assistance.">
+  <PageHeader
+    title="Nos Compétences"
+    subtitle="Nos compétences sur les logiciels de gestion commerciale et de comptabilité nous permettent de vous offrir une gamme de services complets."
+    breadcrumb={[
+      { name: 'La société', href: '/notre-societe' },
+      { name: 'Nos Compétences', href: '/notre-societe/competences' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16">
+        <p>
+          Nos compétences sur les logiciels de gestion commerciale et de comptabilité nous permettent de vous offrir une gamme de services complets : conseils et accompagnement dans le projet de mise en place d'une solution de gestion d'entreprise, installation et configuration du logiciel ou de l'ERP, personnalisation de l'outil de devis-facture, formation des utilisateurs par des formateurs expérimentés, assistance et télémaintenance dans l'utilisation quotidienne des logiciels.
+        </p>
+        <p>
+          Arc Gestion est compétent sur les logiciels Sage Petites Entreprises (anciennement logiciels dits « Api ») et l'ERP CODIAL. Nous intervenons sur les logiciels métiers pour le Bâtiment, le Négoce, les Services et la mécanique automobile.
+        </p>
+      </div>
+
+      <!-- Compétences par produit -->
+      <h2 class="text-3xl font-extrabold text-gray-800 mb-8 text-center">Nos expertises logicielles</h2>
+      <div class="grid md:grid-cols-3 gap-6 mb-16">
+        {competences.map((comp) => (
+          <div class={`bg-${comp.color}/10 rounded-xl p-6`}>
+            <h3 class={`text-xl font-bold text-${comp.color} mb-4`}>{comp.title}</h3>
+            <ul class="space-y-2">
+              {comp.products.map((product) => (
+                <li class="flex items-center gap-2 text-gray-700">
+                  <svg class={`w-4 h-4 text-${comp.color}`} fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  {product}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <!-- Services -->
+      <h2 class="text-3xl font-extrabold text-gray-800 mb-8 text-center">Nos services</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map((service) => (
+          <div class="bg-white rounded-xl shadow-lg p-6 flex items-center gap-4">
+            <div class="text-4xl">{service.icon}</div>
+            <h3 class="text-lg font-bold text-gray-800">{service.name}</h3>
+          </div>
+        ))}
+      </div>
+
+      <!-- Certifications -->
+      <div class="mt-16 bg-secondary/10 rounded-2xl p-8 md:p-12">
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold text-gray-800 mb-6">Nos certifications</h2>
+          <div class="flex flex-wrap justify-center gap-8">
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+              <div class="text-3xl font-bold text-secondary mb-2">Qualiopi</div>
+              <p class="text-gray-600">Certifié pour les formations</p>
+            </div>
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+              <div class="text-3xl font-bold text-primary mb-2">Sage</div>
+              <p class="text-gray-600">Distributeur agréé</p>
+            </div>
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+              <div class="text-3xl font-bold text-accent mb-2">Codial</div>
+              <p class="text-gray-600">Partenaire certifié</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

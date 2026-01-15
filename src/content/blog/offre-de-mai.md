@@ -1,0 +1,8 @@
+---
+title: "Offre commerciale Sage / Arc Gestion, jusqu’à -50%"
+date: 2014-04-08
+excerpt: "Mettez un coup de turbo dans votre gestion d’entreprise en profitant de remises sur la boutique en ligne Arc Gestion"
+category: "Actualités"
+---
+
+Mettez un coup de turbo dans votre gestion d’entreprise en profitant de remises sur la boutique en ligne Arc Gestion Trouvez votre solution Comment obtenir les remises? Les prix affichés ne tiennent pas compte des remises. Avec le code chèque boutique (à saisir dans le panier) : 550 des remises se calculent automatiquement. Notre système de calcul de remises est programmé pour vous offrir les meilleures offres selon la composition de votre panier. Les remises ne sont appliquées uniquement sur les commandes passées et payées via notre site internet. Elles ne sont pas appliquées sur les devis réalisées par notre équipe commerciale. Quelques exemples de remises: – 10% sur les logiciels Sage Petites Entreprises en gamme Standard et les prestations et contrats liés. – 15% sur les logiciels Sage Petites Entreprises en gamme Evolution et les prestations et contrats liés. – 10% sur les prestations et formations. – 5% supplémentaires sur les offres clés en main et pack en plus des remises déjà appliquées (soit jusqu’à -20% sur les prix publics de base). – 5% sur Batiprix pour Apibatiment Standard ou Evolution. – 50% sur les formations thématiques courtes (1h) et Express (2h) à distance. – 50% sur les logiciels de suivi financier avec commande de l’installation liée. Cette liste n’est pas exhaustive. Un taux de remise est calculé selon la composition de votre panier. Tous les produits de la boutique ne font pas l’objet d’une remise systématique. Offre valable avant le 20/05/2014

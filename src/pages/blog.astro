@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PageHeader from '../components/PageHeader.astro'
+import { getCollection, type CollectionEntry } from 'astro:content'
+
+const posts = await getCollection('blog')
+const sortedPosts = posts.sort((a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) => b.data.date.getTime() - a.data.date.getTime())
+
+// Get unique categories
+const categories = [...new Set(posts.map((post: CollectionEntry<'blog'>) => post.data.category).filter(Boolean))]
+---
+
+<Layout title="Blog" description="Actualités, conseils et informations sur les logiciels de gestion Arc Gestion.">
+  <PageHeader
+    title="Blog & Actualités"
+    subtitle="Retrouvez nos dernières actualités, conseils et informations techniques."
+    breadcrumb={[{ name: 'Blog', href: '/blog' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <!-- Filtres par catégorie -->
+      <div class="mb-8">
+        <div class="flex flex-wrap gap-3 justify-center">
+          <button class="category-filter active px-4 py-2 rounded-full bg-primary text-white font-medium transition-all" data-category="all">
+            Tous ({sortedPosts.length})
+          </button>
+          {categories.map((category) => (
+            <button class="category-filter px-4 py-2 rounded-full bg-gray-100 text-gray-700 font-medium hover:bg-primary hover:text-white transition-all" data-category={category}>
+              {category} ({posts.filter((p: CollectionEntry<'blog'>) => p.data.category === category).length})
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" id="posts-grid">
+        {sortedPosts.map((post: CollectionEntry<'blog'>) => (
+          <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow post-card" data-category={post.data.category || 'Non catégorisé'}>
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-2">
+                <p class="text-sm text-gray-500">
+                  {post.data.date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}
+                </p>
+                {post.data.category && (
+                  <span class="text-xs bg-secondary/10 text-secondary px-2 py-1 rounded font-medium">
+                    {post.data.category}
+                  </span>
+                )}
+              </div>
+              <h2 class="text-xl font-bold text-gray-800 mb-3">
+                <a href={`/blog/${post.slug}`} class="hover:text-primary transition-colors">
+                  {post.data.title}
+                </a>
+              </h2>
+              <p class="text-gray-600 mb-4 line-clamp-3">{post.data.excerpt}</p>
+              {post.data.tags && (
+                <div class="flex flex-wrap gap-2 mb-4">
+                  {post.data.tags.slice(0, 3).map((tag: string) => (
+                    <span class="text-xs bg-primary/10 text-primary px-2 py-1 rounded">{tag}</span>
+                  ))}
+                </div>
+              )}
+              <a href={`/blog/${post.slug}`} class="text-primary font-semibold hover:underline">
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <!-- Liens vers les autres blogs -->
+      <div class="bg-gray-50 rounded-2xl p-8 md:p-12">
+        <h2 class="text-2xl font-extrabold text-gray-800 mb-6 text-center">Nos autres ressources</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <a href="https://blog.arcgestion.fr" target="_blank" rel="noopener" class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+            <h3 class="font-bold text-primary mb-2">Blog Tech' Arc Gestion</h3>
+            <p class="text-gray-600 text-sm">Trucs et astuces techniques sur les logiciels Sage et Codial.</p>
+          </a>
+          <a href="http://www.assistance-api.fr/index.php/forum/index" target="_blank" rel="noopener" class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+            <h3 class="font-bold text-primary mb-2">Forum d'entraide</h3>
+            <p class="text-gray-600 text-sm">Posez vos questions et échangez avec la communauté.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.category-filter');
+    const postCards = document.querySelectorAll('.post-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.getAttribute('data-category');
+
+        // Update active button
+        filterButtons.forEach(btn => {
+          btn.classList.remove('active', 'bg-primary', 'text-white');
+          btn.classList.add('bg-gray-100', 'text-gray-700');
+        });
+        button.classList.add('active', 'bg-primary', 'text-white');
+        button.classList.remove('bg-gray-100', 'text-gray-700');
+
+        // Filter posts
+        postCards.forEach(card => {
+          const postCategory = card.getAttribute('data-category');
+          if (category === 'all' || postCategory === category) {
+            (card as HTMLElement).style.display = 'block';
+          } else {
+            (card as HTMLElement).style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
+
+<style>
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

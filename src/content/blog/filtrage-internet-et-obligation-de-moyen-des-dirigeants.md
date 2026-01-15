@@ -1,0 +1,8 @@
+---
+title: "Filtrage internet et obligation de moyen des dirigeants"
+date: 2016-10-17
+excerpt: "En France, les obligations légales pour les dirigeants d’entreprise ne manquent pas. Donner accès à internet à vos collaborateurs, c’est prendre des risques si rien n’est mis en place pour limiter ..."
+category: "Actualités"
+---
+
+En France, les obligations légales pour les dirigeants d’entreprise ne manquent pas. Donner accès à internet à vos collaborateurs, c’est prendre des risques si rien n’est mis en place pour limiter son usage. Les salariés ont un droit d’utilisation d’internet, du téléphone et de l’informatique à des fins personnelles pour un usage dit « raisonnable ». L’entreprise est responsable de l’usage interne de ses outils informatiques. En cas de consultation de sites concernant les sujets suivants : nudités, violence, haine et racisme, pornographie, drogues, contenu illégal, rencontre, jeux, … la société est civilement et pénalement responsables si aucune solution de filtrage n’a été mise en place. L’entreprise a une obligation de moyen pour interdire l’accès à des sites illégaux ainsi que des téléchargements illégaux de fichiers ou logiciels piratés. ARC GESTION peut intégrer dans ses contrats d’infogérance des filtrages simples et efficaces pour la navigation internet. Pour plus de renseignement et mettre en place une solution adaptée à votre entreprise, contactez Arc Gestion au 01.84.184.284.

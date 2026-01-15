@@ -1,0 +1,8 @@
+---
+title: "Sage change d’image"
+date: 2022-06-06
+excerpt: "Arc Gestion est un distributeur historique des logiciels Sage pour les Petites Entreprises. Nos experts vous accompagnent sur Sage Batigest et Sage 50C (Gestion et Comptabilité). Le nouveau logo Sa..."
+category: "Actualités"
+---
+
+Arc Gestion est un distributeur historique des logiciels Sage pour les Petites Entreprises. Nos experts vous accompagnent sur Sage Batigest et Sage 50C (Gestion et Comptabilité). Le nouveau logo Sage : et sa version en noir et blanc: Avec cette nouvelle image, l’éditeur des logiciels de gestion et comptabilité veut véhiculer une image plus humaine et plus humble. Ces dernières années ont démontrées que les utilisateurs veulent se simplifier la vie. L’utilisation des solutions de gestion et des comptabilités doit être plus simple et plus fluide. Comme toutes les grandes marques, l’éditeur SAGE a conçu un logo porteur de ses valeurs. Lorsque les choses sont fluides, la vie est simple et on se sent en confiance. Désormais, Sage communiquera avec un seul et unique logo. Ainsi, les entreprises utilisatrices pourront identifier plus facilement l’éditeur de leurs solutions. Ce logo Sage millésime 2022 va être intégré dans nos communications, en tant que revendeur Sage ou « Sage Business Partner ». Toutes les communications logiciel vont également prendre ces nouvelles couleurs et une nouvelle dynamique. Les fiches produits de la boutique en ligne Sage par Arc Gestion seront mise à jour prochainement.

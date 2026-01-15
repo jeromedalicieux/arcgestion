@@ -1,0 +1,93 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const features = [
+  'Devis et factures BTP',
+  'Bibliothèques d\'ouvrages (Batiprix...)',
+  'Situations de travaux',
+  'Retenues de garantie',
+  'Avenants et acomptes',
+  'Gestion des chantiers',
+  'Planning des interventions',
+  'Suivi de rentabilité',
+  'Sous-traitance',
+  'Approvisionnements',
+]
+---
+
+<Layout title="Codial Bâtiment" description="Codial Bâtiment : la solution ERP pour les entreprises du BTP. Devis, factures, situations, chantiers.">
+  <PageHeader
+    title="Codial Bâtiment"
+    subtitle="La solution ERP complète pour les entreprises du bâtiment et du BTP."
+    breadcrumb={[
+      { name: 'Codial', href: '/codial' },
+      { name: 'Codial Bâtiment', href: '/codial/batiment' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <div class="prose prose-lg">
+            <p>
+              <strong>Codial Bâtiment</strong> équipe plusieurs milliers d'entreprises en France. Codial est très à l'écoute du marché et des besoins de ses clients.
+            </p>
+            <p>
+              La solution Codial évolue très fréquemment pour corriger des dysfonctionnements ou ajouter de nouvelles fonctionnalités par le biais de mises à jour mineures. La mise à jour majeure annuelle comporte de vraies nouveautés en adéquation avec le marché, la réglementation et la technologie.
+            </p>
+            <p>
+              Codial est modulable pour répondre aux besoins des professionnels du bâtiment qui peuvent également avoir des besoins dans la production ou la gestion de contrat de services.
+            </p>
+          </div>
+
+          <h3 class="text-xl font-bold text-gray-800 mt-8 mb-4">Fonctionnalités principales</h3>
+          <div class="grid grid-cols-2 gap-3">
+            {features.map((feature) => (
+              <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-gray-700 text-sm">{feature}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="bg-accent/5 rounded-2xl p-8">
+          <h3 class="text-xl font-bold text-gray-800 mb-6">Métiers concernés</h3>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3 text-gray-700">
+              <span class="text-2xl">🔧</span> Plombier / Chauffagiste
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <span class="text-2xl">⚡</span> Électricien
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <span class="text-2xl">🏠</span> Maçon / Couvreur
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <span class="text-2xl">🪟</span> Menuisier
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <span class="text-2xl">🎨</span> Peintre
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <span class="text-2xl">🏗️</span> Entreprise générale
+            </li>
+          </ul>
+
+          <div class="mt-8 space-y-4">
+            <a href="/codial/demonstration" class="btn btn-primary w-full">
+              Démonstration gratuite
+            </a>
+            <a href="/contact" class="btn btn-outline border-accent text-accent hover:bg-accent hover:text-white w-full">
+              Demander un devis
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

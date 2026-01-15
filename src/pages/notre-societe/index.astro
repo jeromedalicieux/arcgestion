@@ -1,0 +1,84 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const pages = [
+  {
+    title: 'Notre Présentation',
+    description: 'Découvrez Arc Gestion, spécialiste des logiciels de gestion depuis plus de 20 ans.',
+    href: '/notre-societe/presentation',
+    icon: '🏢',
+  },
+  {
+    title: 'Nos Références',
+    description: 'Plus de 1000 entreprises nous font confiance partout en France.',
+    href: '/notre-societe/references',
+    icon: '⭐',
+  },
+  {
+    title: 'Nos Compétences',
+    description: 'Une expertise reconnue sur les logiciels Sage et Codial.',
+    href: '/notre-societe/competences',
+    icon: '🎯',
+  },
+  {
+    title: 'Nos Engagements',
+    description: 'Qualité, proximité et réactivité au service de votre entreprise.',
+    href: '/notre-societe/engagements',
+    icon: '🤝',
+  },
+  {
+    title: 'Devenir Partenaire',
+    description: 'Rejoignez notre réseau de partenaires et développez votre activité.',
+    href: '/notre-societe/devenir-partenaire',
+    icon: '🚀',
+  },
+  {
+    title: 'Contactez-nous',
+    description: 'Une question ? Un projet ? Notre équipe est à votre écoute.',
+    href: '/contact',
+    icon: '📞',
+  },
+]
+---
+
+<Layout title="La société" description="Arc Gestion, votre partenaire en logiciels de gestion depuis plus de 20 ans. Distributeur agréé Sage et Codial.">
+  <PageHeader
+    title="La société"
+    subtitle="La société Arc est devenue Arc Gestion. Arc Gestion est spécialisée dans les logiciels pour les petites entreprises : SAGE PE et CODIAL."
+    breadcrumb={[{ name: 'La société', href: '/notre-societe' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div>
+          <p class="text-lg text-gray-600 mb-6">
+            La société est immatriculée à la Chambre des Commerces et de l'Industrie de l'Essonne. Tous nos collaborateurs sont basés en Ile de France et Aquitaine.
+          </p>
+          <p class="text-lg text-gray-600 mb-6">
+            Arc Gestion a intégré le <a href="https://groupeaddictt.fr" target="_blank" rel="noopener" class="text-primary hover:underline font-semibold">GROUPE ADDICTT</a> en 2016. Nous sommes maintenant en mesure de vous accompagner sur les logiciels, les matériels informatique et les services.
+          </p>
+          <p class="text-lg text-gray-600">
+            Arc Gestion est certifié <strong class="text-secondary">Qualiopi</strong> pour les formations.
+          </p>
+        </div>
+        <div class="bg-gray-100 rounded-2xl p-8">
+          <img src="/images/arc-gestion-building.jpg" alt="Arc Gestion" class="rounded-xl w-full" />
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {pages.map((page) => (
+          <a href={page.href} class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:-translate-y-1">
+            <div class="text-4xl mb-4">{page.icon}</div>
+            <h2 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors">
+              {page.title}
+            </h2>
+            <p class="text-gray-600">{page.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

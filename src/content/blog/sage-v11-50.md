@@ -1,0 +1,8 @@
+---
+title: "Arrivée des versions 11.01 et 11.50"
+date: 2012-12-15
+excerpt: "Sage Petites Entreprises a lancé les versions 11 de Apimécanique, Apinégoce, Apibâtiment en Octobre 2012. Les versions 11.01 et 11.50 sont déjà annoncées."
+category: "Actualités"
+---
+
+Sage Petites Entreprises a lancé les versions 11 de Apimécanique, Apinégoce, Apibâtiment en Octobre 2012. Les versions 11.01 et 11.50 sont déjà annoncées. Les nouvelles versions 11 des logiciels Api sont disponibles depuis début octobre 2012. La réactivité est un des facteurs permettant d’accroitre la satisfaction des utilisateurs. Aussi, face à certaines anomalies techniques rencontrées sur quelques dossiers, Sage PE a déjà mis à disposition des versions 11.01 dès ce mois de décembre 2012. Les logiciels de comptabilités et certaines gestions commerciales métiers sont téléchargeables pour les revendeurs. Les versions 11.0x sont des releases pour des corrections mineures. Les versions 11.50 arriveront progressivement sur le 1er Trimestre 2013. Celles-ci incluront plusieurs patchs pour augmenter la compatibilité avec les nouveaux systèmes d’exploitation Windows 8 et Windows Server 2013 ainsi qu’avec le pack MS Office 2013. Selon les évolutions réglementaires, ces versions 11.50 pourront également comporter des modifications fonctionnelles. Il est à noter dès à présent que la loi LME change au 1er Janvier 2013. Les versions 11.50 étant considérées comme des versions majeures intermédiaires, elles seront accessibles pour les clients en V11 s’ils ont souscrit à un contrat de mise à jour annuelle. Pour les nouveaux clients, ils pourront obtenir directement cette version. Votre distributeur Sage Petites Entreprises est à votre disposition pour tous renseignements complémentaires.

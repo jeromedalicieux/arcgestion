@@ -1,0 +1,8 @@
+---
+title: "Présentation Clément Thoison, nouvel assistant commercial"
+date: 2014-08-06
+excerpt: "En 2014, Arc Gestion a choisi de recruter un nouveau collaborateur, Clément Thoison. Il aura en charge le poste d’assistant commercial en apprentissage."
+category: "Actualités"
+---
+
+En 2014, Arc Gestion a choisi de recruter un nouveau collaborateur, Clément Thoison. Il aura en charge le poste d’assistant commercial en apprentissage. Mes expériences avant Arc Gestion Arbitre de Football De 2008 à 2012, j’étais arbitre de football pour les enfants de -12 ans, puis de – de 15 ans. Les aptitudes que j’ai développées sont : La maîtrise et l’affirmation de soi La capacité à gérer les situations difficiles L’élaboration des documents officiels Entraineur de natation remplaçant Nageur, je pratique la natation en compétition au niveau régional et national. Ma spécialité: le 100m dos. En 2013, j’ai été amené à remplacer un entraineur afin de coacher enfants (6-8 ans) et adolescents (11-13 ans). Les compétences que j’ai acquises sont : La gestion de groupe Le sens des responsabilités Le travail en autonomie Ma formation BTS Négociation et Relation Client Issu d’un Bac STMG Mercatique, j’ai une connaissance de l’environnement professionnel. Le BTS NRC me permettra de confronter des connaissances théoriques au monde du travail. Formation NRC gestion commerciale management des entreprises commercialisation et négociation mercatique gestion de projets Mes missions au sein de Arc Gestion gérer les fichiers clients fidéliser et entretenir les relations clients Démarcher de nouveaux clients Sage Etablir les chiffrages en collaboration avec le technico-commercial Proposer des opérations marketing et commerciales

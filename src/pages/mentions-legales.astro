@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PageHeader from '../components/PageHeader.astro'
+---
+
+<Layout title="Mentions légales" description="Mentions légales du site arcgestion.fr">
+  <PageHeader
+    title="Mentions légales"
+    breadcrumb={[{ name: 'Mentions légales', href: '/mentions-legales' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="max-w-4xl mx-auto prose prose-lg">
+        <h2>Éditeur du site</h2>
+        <p>
+          <strong>Arc Gestion</strong><br />
+          Société spécialisée dans les logiciels de gestion<br />
+          Siège social : Essonne (91), Île-de-France<br />
+          Téléphone : 09.72.47.67.37<br />
+          Email : contact@arcgestion.fr
+        </p>
+
+        <h2>Directeur de la publication</h2>
+        <p>Le directeur de la publication est le représentant légal de la société Arc Gestion.</p>
+
+        <h2>Hébergement</h2>
+        <p>
+          Ce site est hébergé par :<br />
+          [Informations de l'hébergeur]
+        </p>
+
+        <h2>Propriété intellectuelle</h2>
+        <p>
+          L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.
+        </p>
+
+        <h2>Données personnelles</h2>
+        <p>
+          Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant.
+        </p>
+        <p>
+          Pour exercer ce droit, vous pouvez nous contacter à l'adresse : contact@arcgestion.fr
+        </p>
+
+        <h2>Cookies</h2>
+        <p>
+          Ce site utilise des cookies pour améliorer l'expérience utilisateur et mesurer l'audience. En poursuivant votre navigation, vous acceptez l'utilisation de ces cookies.
+        </p>
+
+        <h2>Liens hypertextes</h2>
+        <p>
+          Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de Arc Gestion.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

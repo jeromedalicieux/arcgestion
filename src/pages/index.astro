@@ -1,0 +1,266 @@
+---
+import Layout from '../layouts/Layout.astro'
+import ServiceCard from '../components/ServiceCard.astro'
+
+const services = [
+  {
+    title: 'Codial',
+    description: 'Codial est un ERP / PGI modulable pour les TPE et PME. Il répond aux contraintes des métiers du Négoce, Bâtiment et Services. Codial évolue selon vos besoins : GED, CRM, Planning…',
+    href: '/codial',
+    color: 'accent' as const,
+  },
+  {
+    title: 'Boutique',
+    description: 'Achetez les services, les logiciels, les abonnements. Abonnements mensuels ou annuels Sage. Demande de devis pour l\'ERP CODIAL.',
+    href: 'https://www.arcgestion.fr/boutique',
+    color: 'primary' as const,
+  },
+  {
+    title: 'Sage',
+    description: 'Logiciel de Gestion et Comptabilité. Sage Batigest Connect, Sage 50C Gestion Commerciale, Sage 50C Comptabilité… toutes les solutions TPE de Sage.',
+    href: '/notre-savoir-faire/solutions',
+    color: 'secondary' as const,
+  },
+  {
+    title: 'Conseils & Services',
+    description: 'Arc Gestion vous conseille, vous accompagne, vous paramètre, vous forme et vous assiste sur les logiciels Sage et Codial. Votre spécialiste en informatique de gestion pour les TPE.',
+    href: '/notre-savoir-faire/services',
+    color: 'primary' as const,
+  },
+  {
+    title: 'Solutions & Produits',
+    description: 'Logiciels de gestion, ERP, logiciel de comptabilité, Arc Gestion vous propose des solutions clés en main pour vos logiciels et votre informatique.',
+    href: '/notre-savoir-faire/produits',
+    color: 'accent' as const,
+  },
+  {
+    title: 'Blog technique',
+    description: 'Les nouveautés ainsi que les trucs et les astuces, sur les solutions proposées par Arc Gestion. Des informations techniques gratuites pour tous.',
+    href: '/blog',
+    color: 'orange' as const,
+  },
+]
+
+const expertises = [
+  {
+    title: 'Bâtiment',
+    subtitle: 'Plombier, électricien, chauffagiste…',
+    description: 'Arc Gestion vous propose 2 solutions selon vos besoins : Sage Batigest i7 ou Batigest Connect et l\'ERP CODIAL Bâtiment avec des outils complémentaires de chiffrage.',
+  },
+  {
+    title: 'Mécanique',
+    subtitle: 'Garage automobile, poids-lourds, carrossier…',
+    description: 'Apimécanique Automobile pour la gestion quotidienne d\'un garage de réparation, une carrosserie. EBP Méca MROAD est une solution moderne pour la gestion des garages.',
+  },
+  {
+    title: 'Négoce',
+    subtitle: 'Commerce de gros et de détails',
+    description: 'Codial Négoce vous permet d\'avoir un CRM et une GED intégrée. Vous pouvez travailler en mobilité et synchroniser votre base avec celle de la société.',
+  },
+  {
+    title: 'Services',
+    subtitle: 'Gestion de contrats',
+    description: 'Codial Services vous offre toutes les fonctionnalités d\'une gestion commerciale avec en plus la gestion des contrats (forfaitaire, à l\'intervention, au point ou à la copie).',
+  },
+]
+---
+
+<Layout title="Solutions de logiciels de gestion pour les petites entreprises">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-primary to-primary-dark overflow-hidden">
+    <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-10"></div>
+
+    <div class="container relative py-20 md:py-32">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight">
+            Votre partenaire en
+            <span class="text-secondary">logiciels de gestion</span>
+          </h1>
+          <p class="text-xl text-white/90 mb-8">
+            Arc Gestion accompagne les petites entreprises depuis plus de 20 ans avec les solutions Sage et Codial.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="/contact" class="btn btn-secondary">
+              Demander un devis gratuit
+            </a>
+            <a href="/codial/demonstration" class="btn btn-outline text-white border-white hover:bg-white hover:text-primary">
+              Démonstration gratuite
+            </a>
+          </div>
+        </div>
+        <div class="hidden lg:block">
+          <div class="bg-white/10 backdrop-blur rounded-2xl p-8">
+            <div class="grid grid-cols-2 gap-4 text-white text-center">
+              <div class="p-4">
+                <div class="text-4xl font-extrabold text-secondary">20+</div>
+                <div class="text-sm text-white/80">Années d'expérience</div>
+              </div>
+              <div class="p-4">
+                <div class="text-4xl font-extrabold text-secondary">1000+</div>
+                <div class="text-sm text-white/80">Entreprises équipées</div>
+              </div>
+              <div class="p-4">
+                <div class="text-4xl font-extrabold text-secondary">100%</div>
+                <div class="text-sm text-white/80">Taux de satisfaction</div>
+              </div>
+              <div class="p-4">
+                <div class="text-4xl font-extrabold text-secondary">2</div>
+                <div class="text-sm text-white/80">Agences en France</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logos des solutions -->
+      <div class="mt-16 pt-8 border-t border-white/20">
+        <p class="text-white/60 text-sm text-center mb-6">Nos solutions partenaires</p>
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+          <span class="text-white/80 font-bold text-xl">ApiMécanique</span>
+          <span class="text-white/80 font-bold text-xl">Codial</span>
+          <span class="text-white/80 font-bold text-xl">EBP Méca</span>
+          <span class="text-white/80 font-bold text-xl">Sage Batigest</span>
+          <span class="text-white/80 font-bold text-xl">Sage 50C</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section bg-gray-50">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
+          Nos solutions pour votre entreprise
+        </h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Découvrez nos offres adaptées aux besoins des TPE et PME
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map((service) => (
+          <ServiceCard {...service} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-6">
+            Arc Gestion, votre distributeur <span class="text-primary">Sage</span> et <span class="text-accent">Codial</span>
+          </h2>
+          <div class="prose prose-lg text-gray-600 space-y-4">
+            <p>
+              Arc Gestion distribue les logiciels Sage Petites Entreprises et l'ERP CODIAL.
+            </p>
+            <p>
+              Avec plus de <strong>20 ans d'expérience</strong>, ce sont plus de 1000 entreprises équipées en logiciels de gestion et comptabilité. Nous avons un taux de renouvellement de contrat d'assistance qui avoisine les 100%.
+            </p>
+            <p>
+              Arc Gestion a développé un savoir-faire sur des spécificités des logiciels Sage Petites Entreprises. Nos experts CODIAL ont suivi l'intégralité des cycles pour Codial Négoce, Codial Bâtiment, Codial Services et Codial Production.
+            </p>
+            <p>
+              Aujourd'hui, faites confiance à un <strong>distributeur agréé, fiable, compétent et certifié</strong> par des éditeurs de logiciels connus et reconnus : <strong>Sage, Codial et EBP</strong>.
+            </p>
+          </div>
+          <div class="mt-8">
+            <a href="/notre-societe/presentation" class="btn btn-primary">
+              En savoir plus sur Arc Gestion
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="bg-primary/5 rounded-2xl p-8">
+            <img src="/images/team.jpg" alt="L'équipe Arc Gestion" class="rounded-xl shadow-lg w-full" />
+          </div>
+          <div class="absolute -bottom-6 -right-6 bg-secondary text-white rounded-xl p-6 shadow-xl">
+            <div class="text-3xl font-extrabold">Qualiopi</div>
+            <div class="text-sm text-white/80">Certifié pour les formations</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertises Section -->
+  <section class="section bg-gray-50">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
+          Nos domaines d'expertise
+        </h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Arc Gestion est spécialisé dans plusieurs domaines d'activité selon votre métier
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        {expertises.map((expertise) => (
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">{expertise.title}</h3>
+              <p class="text-secondary font-semibold mb-4">{expertise.subtitle}</p>
+              <p class="text-gray-600">{expertise.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Zone intervention -->
+  <section class="section">
+    <div class="container">
+      <div class="bg-primary rounded-2xl p-8 md:p-12 text-white">
+        <div class="grid lg:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">
+              Partout où vous avez besoin de nous
+            </h2>
+            <p class="text-white/90 text-lg mb-4">
+              Historiquement, nous sommes distributeur de logiciels dans l'Essonne. Nous intervenons dans tous les départements d'Ile de France : 91, 92, 93, 94, 95, 78, 77, 75 et limitrophes.
+            </p>
+            <p class="text-white/90 text-lg mb-4">
+              En 2018, nous avons recruté pour couvrir la région Aquitaine. Notre agence <strong>Arc Gestion Aquitaine</strong> vous accompagne sur Bordeaux et sa région.
+            </p>
+            <p class="text-white/90 text-lg">
+              Nous avons des clients sur toute la France et les DOM-TOM. Nos outils et nos experts savent intervenir à distance ou sur site.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="inline-block bg-white/10 backdrop-blur rounded-xl p-8">
+              <div class="text-5xl font-extrabold text-secondary mb-2">France</div>
+              <div class="text-xl text-white/80">et DOM-TOM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section bg-secondary">
+    <div class="container text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
+        Prêt à optimiser votre gestion ?
+      </h2>
+      <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+        Contactez-nous pour une démonstration gratuite et sans engagement de nos solutions.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/contact" class="btn bg-white text-secondary hover:bg-gray-100">
+          Contactez-nous
+        </a>
+        <a href="/codial/demonstration" class="btn btn-outline text-white border-white hover:bg-white hover:text-secondary">
+          Démonstration gratuite
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

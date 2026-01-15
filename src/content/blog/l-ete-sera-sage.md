@@ -1,0 +1,8 @@
+---
+title: "L’été sera SAGE"
+date: 2014-07-08
+excerpt: "Remise de 10% sur toute la boutique en ligne « logiciel Sage » jusqu’au 14/08/2014"
+category: "Actualités"
+---
+
+Remise de 10% sur toute la boutique en ligne « logiciel Sage » jusqu’au 14/08/2014 Pour toutes commandes d’un logiciel Apibatiment Batigest Standard ou Apibatiment Batigest Evolution ainsi que pour les logiciels Apimécanique et Apinégoce, vous bénéficiez d’une remise de 10% sur la boutique en ligne en saisissant le code remise: 7814 Je commande mon logiciel Immédiatement avec le code remise 7814 ! Ce code remise est valable uniquement sur la boutique en ligne « Logiciel Sage ». Il doit être saisi dans votre panier. La remise ne s’applique pas sur les prestations, formations, et autres produits. Astuce: selectionnez les prestations dans la fiche du logiciel choisi et bénéficiez de 10% sur les prestations liées à votre logiciel ! Cette remise de 10% est la dernière remise que nous appliquerons sur les logiciels Sage avant l’augmentation de tarifs de l’éditeur planifié pour Septembre 2014! Alors, n’attendez pas pour commander votre logiciel! A partir de Septembre 2014, les logiciels en gamme Standard augmentent de tarif.De plus, la gamme Evolution disparait du catalogue des licences. Les logiciels Apibatiment Evolution, Apimécanique Automobile Evolution, Apimécanique poids-lourd, Apimécanique moto-cyclo, Apimécanique motonautisme et la gestion commerciale Apinégoce Evolution passent tous en mode DEL/DUA (DEL: Droit d’Entrée Logiciel. DUA: Droit d’Usage Annuel). La grille tarifaire pour les logiciels Sage Petites Entreprises change également.

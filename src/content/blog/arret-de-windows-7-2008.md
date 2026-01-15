@@ -1,0 +1,8 @@
+---
+title: "Arrêt de Windows 7/2008"
+date: 2019-10-16
+excerpt: "Dès le 14 janvier prochain, Microsoft va abandonner le système d’exploitation qui compte encore autant de PC sous Windows 7 que sous Windows 10. Qu’est-ce que cela implique ? Le 14 janvier 2020, il..."
+category: "Actualités"
+---
+
+Dès le 14 janvier prochain, Microsoft va abandonner le système d’exploitation qui compte encore autant de PC sous Windows 7 que sous Windows 10. Qu’est-ce que cela implique ? Le 14 janvier 2020, il n’y aura plus aucun « support étendu » de Windows 7. Ce qui veut dire que l’éditeur ne fera plus aucune mise à jour passé cette date-là. Les mises à jour concernent les failles de sécurité et les correctifs de Windows 7. En clair, sans ce support étendu, le système se retrouve démuni face aux attaques du Web. Point très intéressant pour les pirates de continuer à chercher et à exploiter les failles du système. Que faire ? Pour passer à Windows 10 : Vous rendre sur le site de Microsoft Télécharger l’assistant de mise à jour Pour activer votre copie de Windows il vous faudra cependant acheter une licence. Il y en a trois types, en fonction de l’utilisation que vous faites de votre ordinateur : Windows 10 Famille (attention, la version famille n’est pas adaptée sur un réseau professionnel.) Windows 10 Professionnel Windows 10 Professionnel pour les stations de travail Nous pouvons vous accompagner dans cette transition en toute sécurité vers un nouvel O.S., n’hésitez à pas nous contacter au 01.84.184.284 ou prendre rendez-vous avec l’un de nos experts.

@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const services = [
+  {
+    title: 'Conseil logiciel et installations',
+    description: 'Nous analysons vos besoins et vous conseillons la solution la plus adaptée. Nous assurons l\'installation et la configuration de vos logiciels.',
+    icon: '💡',
+  },
+  {
+    title: 'Formation',
+    description: 'Nos formateurs certifiés vous accompagnent pour une prise en main optimale de vos outils. Arc Gestion est certifié Qualiopi.',
+    icon: '📚',
+  },
+  {
+    title: 'Assistance technique',
+    description: 'Notre équipe d\'assistance est disponible pour répondre à vos questions et résoudre vos problèmes rapidement.',
+    icon: '🛠️',
+  },
+  {
+    title: 'Télémaintenance',
+    description: 'Intervention à distance rapide et efficace pour diagnostiquer et résoudre vos problèmes techniques.',
+    icon: '🖥️',
+  },
+  {
+    title: 'Personnalisation',
+    description: 'Adaptation de vos outils à vos besoins spécifiques : états, requêtes, macros, paramétrage avancé.',
+    icon: '🎨',
+  },
+  {
+    title: 'Migration de données',
+    description: 'Récupération et migration de vos données depuis votre ancien logiciel vers votre nouvelle solution.',
+    icon: '📦',
+  },
+]
+---
+
+<Layout title="Nos Services" description="Du conseil à la formation, Arc Gestion vous accompagne dans tous vos projets logiciels.">
+  <PageHeader
+    title="Nos Services"
+    subtitle="Arc Gestion, ce n'est pas seulement un distributeur de logiciels. Nous vous proposons nos services et nos prestations pour vous accompagner au quotidien."
+    breadcrumb={[
+      { name: 'Notre savoir-faire', href: '/notre-savoir-faire' },
+      { name: 'Nos Services', href: '/notre-savoir-faire/services' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {services.map((service) => (
+          <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+            <div class="text-5xl mb-4">{service.icon}</div>
+            <h3 class="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+            <p class="text-gray-600">{service.description}</p>
+          </div>
+        ))}
+      </div>
+
+      <!-- Qualiopi -->
+      <div class="mt-16 bg-secondary/10 rounded-2xl p-8 md:p-12">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-3xl font-extrabold text-gray-800 mb-4">Certification Qualiopi</h2>
+            <p class="text-lg text-gray-600 mb-4">
+              Arc Gestion est certifié Qualiopi pour ses actions de formation professionnelle. Cette certification atteste de la qualité du processus mis en œuvre par notre organisme.
+            </p>
+            <p class="text-gray-600">
+              Vos formations peuvent ainsi être prises en charge par votre OPCO.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="inline-block bg-white rounded-xl p-8 shadow-lg">
+              <div class="text-4xl font-extrabold text-secondary mb-2">Qualiopi</div>
+              <p class="text-gray-600">Certifié pour les formations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section bg-primary">
+    <div class="container text-center">
+      <h2 class="text-3xl font-extrabold text-white mb-6">Besoin d'un accompagnement ?</h2>
+      <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+        Contactez-nous pour discuter de vos besoins. Notre équipe est à votre écoute.
+      </p>
+      <a href="/contact" class="btn bg-white text-primary hover:bg-gray-100">
+        Nous contacter
+      </a>
+    </div>
+  </section>
+</Layout>

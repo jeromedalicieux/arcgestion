@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+---
+
+<Layout title="Nos Offres" description="Découvrez les offres Arc Gestion : achat, location, abonnement. Solutions Sage et Codial.">
+  <PageHeader
+    title="Nos Offres"
+    subtitle="Nous proposons les logiciels de 2 éditeurs : Sage et Codial. Chaque éditeur fait le choix du mode de commercialisation de ses logiciels."
+    breadcrumb={[
+      { name: 'Notre savoir-faire', href: '/notre-savoir-faire' },
+      { name: 'Nos Offres', href: '/notre-savoir-faire/offres' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="prose prose-lg max-w-4xl mx-auto mb-12">
+        <p>
+          Codial et Sage ont décidé de faire de la vente indirecte, c'est à dire en passant par un réseau de partenaires agréés. Arc Gestion propose les offres des éditeurs sous la même forme avec sa propre politique commerciale.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        <!-- Codial -->
+        <div class="bg-accent/5 rounded-2xl p-8">
+          <h2 class="text-2xl font-extrabold text-accent mb-6">Les modes de commercialisation Codial</h2>
+          <div class="space-y-4">
+            <div class="bg-white rounded-xl p-6">
+              <h3 class="font-bold text-gray-800 mb-2">Achat de licence</h3>
+              <p class="text-gray-600 text-sm">Achat définitif de la licence avec maintenance optionnelle.</p>
+            </div>
+            <div class="bg-white rounded-xl p-6">
+              <h3 class="font-bold text-gray-800 mb-2">Location de licence</h3>
+              <p class="text-gray-600 text-sm">Location mensuelle avec maintenance incluse.</p>
+            </div>
+            <div class="bg-white rounded-xl p-6">
+              <h3 class="font-bold text-gray-800 mb-2">SaaS</h3>
+              <p class="text-gray-600 text-sm">Solution hébergée dans le cloud, accessible partout.</p>
+            </div>
+          </div>
+          <a href="/codial" class="btn btn-outline border-accent text-accent hover:bg-accent hover:text-white mt-6">
+            Découvrir Codial
+          </a>
+        </div>
+
+        <!-- Sage -->
+        <div class="bg-primary/5 rounded-2xl p-8">
+          <h2 class="text-2xl font-extrabold text-primary mb-6">Les modes de commercialisation Sage</h2>
+          <div class="space-y-4">
+            <div class="bg-white rounded-xl p-6">
+              <h3 class="font-bold text-gray-800 mb-2">Abonnement mensuel</h3>
+              <p class="text-gray-600 text-sm">Paiement mensuel avec toutes les mises à jour incluses.</p>
+            </div>
+            <div class="bg-white rounded-xl p-6">
+              <h3 class="font-bold text-gray-800 mb-2">Abonnement annuel</h3>
+              <p class="text-gray-600 text-sm">Engagement annuel avec tarif préférentiel.</p>
+            </div>
+            <div class="bg-white rounded-xl p-6">
+              <h3 class="font-bold text-gray-800 mb-2">Solutions hybrides</h3>
+              <p class="text-gray-600 text-sm">Installation locale avec données dans le cloud.</p>
+            </div>
+          </div>
+          <a href="https://www.arcgestion.fr/boutique" class="btn btn-outline border-primary text-primary hover:bg-primary hover:text-white mt-6">
+            Voir la boutique Sage
+          </a>
+        </div>
+      </div>
+
+      <!-- Services complémentaires -->
+      <div class="bg-gray-50 rounded-2xl p-8 md:p-12">
+        <h2 class="text-3xl font-extrabold text-gray-800 mb-8 text-center">Services complémentaires</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="text-center">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-800 mb-2">Contrat de maintenance</h3>
+            <p class="text-gray-600 text-sm">Mises à jour et support inclus</p>
+          </div>
+          <div class="text-center">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-800 mb-2">Télésauvegarde</h3>
+            <p class="text-gray-600 text-sm">Vos données sécurisées dans le cloud</p>
+          </div>
+          <div class="text-center">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-800 mb-2">Formation</h3>
+            <p class="text-gray-600 text-sm">Prise en charge OPCO possible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

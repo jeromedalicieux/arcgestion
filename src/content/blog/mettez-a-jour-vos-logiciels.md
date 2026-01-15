@@ -1,0 +1,8 @@
+---
+title: "Mettez à jour vos logiciels"
+date: 2017-04-07
+excerpt: "Dans les prochains mois de nombreux changements de règlementations sont déjà connus et vont arriver pour les entreprises. Dès à présent, mettez à jour vos logiciels… – Les logiciels Sage Petites En..."
+category: "Actualités"
+---
+
+Dans les prochains mois de nombreux changements de règlementations sont déjà connus et vont arriver pour les entreprises. Dès à présent, mettez à jour vos logiciels… – Les logiciels Sage Petites Entreprises des gammes Standard et Evolution (hors Apimécanique) ne seront plus conformes aux nouvelles obligations légales du 1er Janvier 2018 (Voir notre précédent article). Sage propose une remise de -55% pour les clients détenteurs d’un logiciel en gamme Standard ou Evolution (Apinégoce, Apibatiment, Apiservices) passant sur la gamme i7. – Les logiciels Apimécanique seront conformes aux dernières obligations légales à partir des versions 15 livrées fin 2017. Mettez en place dès à présent un contrat d’abonnement pour bénéficier des évolutions en temps et en heure. Equipez-vous d’un nouveau logiciel – Vous êtes une entreprise de moins de 6 mois, le logiciel CODIAL vous est offert par Codial et un pack prestations vous est proposé par Arc Gestion. – Vous êtes déjà équipé d’un logiciel de gestion et vous souhaitez passer sur Codial. Contactez le service commercial pour découvrir nos offres. Ces offres sont valables jusqu’au 30/05/2017. Voir toutes les conditions auprès de notre service commercial.

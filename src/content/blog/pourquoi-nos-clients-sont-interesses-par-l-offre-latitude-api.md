@@ -1,0 +1,8 @@
+---
+title: "Pourquoi nos clients sont interessés par l’offre Latitude"
+date: 2013-05-17
+excerpt: "Arc Gestion a lancé son site internet Latitude-Api.fr et a interrogé ses clients. Que disent les clients de l’offre Latitude Api par Arc Gestion?"
+category: "Actualités"
+---
+
+Arc Gestion a lancé son site internet Latitude-Api.fr et a interrogé ses clients. Que disent les clients de l’offre Latitude Api par Arc Gestion? Arc Gestion est le 1er distributeur à mettre en place un site internet en proposant l’offre Latitude avec son propre package de services. Cette offre est nommée Latitude Api par Arc Gestion. Le package comprend : le logiciel métier Sage choisi, les mises à jour, l’installation des mises à jour, l’assistance téléphonique, la télémaintenance,… et tout un bouquet de services à la carte. Nous avons échangé avec un grand nombre de nos clients via une enquête téléphonique. Pour un logiciel Apimécanique avec l’offre Latitude, ça me coûte moins cher que les mises à jour et l’assistance téléphonique. C’est souple. Je vais pouvoir tester des options Apimécanique que je n’osai pas prendre. Si ça me convient, je garde. Sinon, j’arrête. Je ne me démunie pas de ma trésorerie. Un paiement mensuel, ça m’arrange. Comptablement, c’est plus avantageux que d’acheter les mises à jour et payer l’assistance. Faîtes votre propre calcul d’abonnement pour les logiciels Apimécanique, Apinégoce, Apibâtiment et Apicommerce sur notre site internet dédié.

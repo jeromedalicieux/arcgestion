@@ -1,0 +1,8 @@
+---
+title: "choisissez votre logiciel en 3 clics!"
+date: 2014-11-06
+excerpt: "Toujours dans le but de simplifier les choix des internautes, Arc Gestion a mis en place de nouveaux outils pour aider à bien définir le logiciel adapté à leur besoin."
+category: "Actualités"
+---
+
+Toujours dans le but de simplifier les choix des internautes, Arc Gestion a mis en place de nouveaux outils pour aider à bien définir le logiciel adapté à leur besoin. Vous hésitez entre un logiciel Apimécanique en gamme standard ou évolution? Vous ne savez pas quelle offre choisir dans notre boutique? Nous venons de mettre en ligne des outils permettant de vous aider dans votre choix. Ainsi, les points très différenciants entre les gammes de logiciel vous sont proposés comme des « choix ». Les formules d’abonnement : annuel, mensuel, mise à jour, sont également des critères de choix. Le nombre de postes sur lequel le logiciel sera installé est clairement mis en avant. En cochant ce que vous voulez, nous trouvons le logiciel et l’offre la plus adaptée à votre besoin. Vous avez après le choix de prendre ou non les services proposés par Arc Gestion. Ces formulaires pour vous aider à trouver votre logiciel Apinégoce, Apibatiment ou Apimécanique vous proposent également les meilleures offres du moment sur notre site internet. Bien évidemment, Arc Gestion n’étant pas un simple vendeur de logiciel, nous pouvons vous aider dans vos choix, réaliser les prestations d’installation, paramétrages, assistances, formations,… Arc Gestion est distributeur certifié sur Apimécanique, Apinégoce et Apibâtiment par les équipes techniques de Sage Petites Entreprises. La société est aussi partenaire agréé Sage. Une question ? Contactez-nous au 01.84.184.284

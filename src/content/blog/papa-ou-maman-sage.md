@@ -1,0 +1,8 @@
+---
+title: "Papa ou Maman Sage?"
+date: 2015-03-31
+excerpt: "Est-ce que vos enfants sont aussi SAGE que vous, chef d’entreprise?"
+category: "Actualités"
+---
+
+Est-ce que vos enfants sont aussi SAGE que vous, chef d’entreprise? Comme nous ne sommes jamais assez SAGE, Arc Gestion a imaginé une campagne en donnant la parole aux enfants. La comptabilité SAGE Petites Entreprises est un jeu d’enfant pour les personnes formées. Elle vous permet de traiter toute votre comptabilité jusqu’au bilan comptable. Encaisser avec Apicommerce est simple et intuitif. Quel que soit votre âge vous aurez l’impression de retourner en enfant et de jouer à la marchande. Le logiciel gère votre caisse, votre facturation, vos stocks et la fidélité client. La mécanique est votre métier. Apimécanique est fait pour vous. Vous pourrez ainsi gagner du temps dans vos travaux administratif soit pour faire plus de véhicule ou vous occuper de votre enfant qui a déjà l’envie de vous aider. Papa parle beaucoup? Non, il négoce avec son client. Apinégoce est une gestion commerciale complète pour les petites entreprises. Gestion du fichier clients, des articles, des stocks, de la facturation,… Apinégoce (anciennement Apisoft) est l’outil indispensable pour votre entreprise. Apibatiment donne envie à tous les petits de pendre la suite de l’entreprise familiale dans le bâtiment. Faire un devis avec des tranches, créer des situations, organiser le chantier, suivre les consommations: un jeu d’enfant pour les personnes bien formées. Apibat est recommandé par les Fédérations du Batiment et de nombreux fournisseurs du Bâtiment. Couplé à E-appel d’offre ou e-tarif, vous optimisez encore plus votre temps de travail.

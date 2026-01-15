@@ -1,0 +1,8 @@
+---
+title: "Loi du 1er Avril 2017"
+date: 2017-06-19
+excerpt: "Depuis le 1er Avril 2017, les professionnels du batiment faisant du dépannage doivent respecter de nouvelles obligations. L’arrêté du 24 janvier 2017 relatif à la publicité des prix des prestations..."
+category: "Actualités"
+---
+
+Depuis le 1er Avril 2017, les professionnels du batiment faisant du dépannage doivent respecter de nouvelles obligations. L’arrêté du 24 janvier 2017 relatif à la publicité des prix des prestations de dépannage, de réparation et d’entretien dans le secteur du bâtiment et de l’équipement de la maison spécifie les éléments suivants. Le professionnel est tenu de réaliser un devis avant le début des travaux avec le décompte détaillé, en quantité et en prix, de toutes les prestations et produits nécessaires à l’opération prévue. Le cas échéant, le professionnel doit communiquer ses conditions de rémunération. De plus, une facture doit être remise à partir de 25 €uros. Pour dépondre à ces obligations, le professionnel du batiment : plombier, électricien, chauffagiste, serrurier,… doit avoir un outil de gestion lui permettant d’établir simplement et rapidement des devis. Plusieurs solutions existent : – Batigest avec Sage OnLine Access : réalisation des devis en mobilité en se connectant par internet au bureau – Codial EveryWhere et CodialPad : des outils de chiffrages en mobilité sans nécessité de connexion internet – MobilOutil : logiciel de chiffrage pour les professionnels du batiment s’appuyant sur une tablette durcie et des chiffrages par des manipulations simples et rapides. Pour toutes ses solutions, contactez votre partenaire logiciel : Arc Gestion au 01.84.184.284.

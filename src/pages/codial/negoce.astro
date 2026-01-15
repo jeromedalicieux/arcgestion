@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const features = [
+  'Gestion commerciale complète',
+  'CRM intégré',
+  'GED (Gestion Électronique de Documents)',
+  'Gestion des stocks avancée',
+  'Tarification complexe',
+  'Mobilité commerciale',
+  'Tableaux de bord LivePilot',
+  'Multi-dépôts',
+  'Codes-barres et lecteurs',
+  'E-commerce (connecteurs)',
+]
+---
+
+<Layout title="Codial Négoce" description="Codial Négoce : ERP pour le commerce de gros et détail. CRM et GED intégrés.">
+  <PageHeader
+    title="Codial Négoce"
+    subtitle="La solution ERP pour les entreprises de négoce et commerce BtoB."
+    breadcrumb={[
+      { name: 'Codial', href: '/codial' },
+      { name: 'Codial Négoce', href: '/codial/negoce' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <div class="prose prose-lg">
+            <p>
+              <strong>Codial Négoce</strong>, en plus d'être une gestion commerciale, vous permet d'avoir un CRM et une GED intégrée.
+            </p>
+            <p>
+              Vous pouvez également travailler avec Codial en mobilité (salons, clients,...) et synchroniser votre base avec celle de la société.
+            </p>
+            <p>
+              Vous suivez l'activité de votre entreprise et vos commerciaux avec des outils performants tels que <strong>LivePilot</strong>, le tableau de bord décisionnel de Codial.
+            </p>
+          </div>
+
+          <h3 class="text-xl font-bold text-gray-800 mt-8 mb-4">Fonctionnalités principales</h3>
+          <div class="grid grid-cols-2 gap-3">
+            {features.map((feature) => (
+              <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-gray-700 text-sm">{feature}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="bg-accent/5 rounded-2xl p-8">
+          <h3 class="text-xl font-bold text-gray-800 mb-6">Points forts</h3>
+          <div class="space-y-4">
+            <div class="bg-white rounded-xl p-4">
+              <h4 class="font-bold text-accent mb-2">CRM intégré</h4>
+              <p class="text-gray-600 text-sm">Gérez vos prospects et clients, suivez vos opportunités commerciales.</p>
+            </div>
+            <div class="bg-white rounded-xl p-4">
+              <h4 class="font-bold text-accent mb-2">GED intégrée</h4>
+              <p class="text-gray-600 text-sm">Centralisez tous vos documents liés aux clients et fournisseurs.</p>
+            </div>
+            <div class="bg-white rounded-xl p-4">
+              <h4 class="font-bold text-accent mb-2">Mobilité</h4>
+              <p class="text-gray-600 text-sm">Travaillez en déplacement et synchronisez vos données.</p>
+            </div>
+          </div>
+
+          <div class="mt-8 space-y-4">
+            <a href="/codial/demonstration" class="btn btn-primary w-full">
+              Démonstration gratuite
+            </a>
+            <a href="/contact" class="btn btn-outline border-accent text-accent hover:bg-accent hover:text-white w-full">
+              Demander un devis
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

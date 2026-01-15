@@ -1,0 +1,8 @@
+---
+title: "ALERTE SAGE incompatibilité Windows 10.30"
+date: 2017-10-09
+excerpt: "Cette information concerne tous les clients utilisateurs de Windows 10 et des logiciels : Sage Apibâtiment, Sage Apinégoce, Sage Apicommerce, Sage Apiservices, Apimécanique, versions 14 et antérieu..."
+category: "Actualités"
+---
+
+Cette information concerne tous les clients utilisateurs de Windows 10.Les logiciels sont aussi concernés : Sage Apibâtiment, Sage Apinégoce, Sage Apicommerce, Sage Apiservices, Apimécanique, versions 14 et antérieures et gammes i7, Ciel Devis-Factures du Bâtiment et Ciel Bâtiment. Microsoft nous a alerté sur l’impact de la prochaine mise à jour Windows 10.3, qui sera déployée à partir du 17 octobre 2017. En effet, le déploiement de cette nouvelle version pourrait bloquer le démarrage des applications Sage pré-citées. PROCEDURE SAGE Fermer tous les logiciels Sage PE / Ciel BTP. Télécharger le fichier DisableShadowLoopBack.reg disponible ici et l’enregistrer sur votre bureau. Exécuter le fichier DisableShadowLoopBack.reg par un double clic (NB : l’utilisation du fichier nécessite des droits administrateur!) Valider le message d’avertissement apparaissant à l’écran. Redémarrer le poste. Vous pouvez utiliser vos applications Sage normalement. Comme d’habitude, la mise à jour Windows aura certainement aussi un impact sur les imprimantes API PDF pour l’envoi de mail et la création de PDF. L’erreur -21 ou -40 apparaitra, il faudra soit remettre les droits sur l’imprimante soit la réenregistrer dans la base des registres.

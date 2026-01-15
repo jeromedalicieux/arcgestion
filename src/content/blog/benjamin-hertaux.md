@@ -1,0 +1,8 @@
+---
+title: "Présentation Benjamin Hertaux, nouveau Webmarketeur"
+date: 2014-08-06
+excerpt: "En 2014, Arc Gestion a choisi de recruter un nouveau collaborateur, Benjamin Hertaux. Il aura en charge le poste de webmarketeur en apprentissage à l’IUT d’Evry."
+category: "Actualités"
+---
+
+En 2014, Arc Gestion a choisi de recruter un nouveau collaborateur, Benjamin Hertaux. Il aura en charge le poste de webmarketeur en apprentissage à l’IUT d’Evry. Mon parcours avant Arc Gestion Après avoir obtenu un Bac Littéraire et réalisé une licence en Lettres Modernes au Mans, je me suis réorienté vers un BTS en Management des Unités Commerciales que j’ai obtenu en 2014. De 2012 à 2014, j’ai donc réalisé un BTS Management des Unités Commerciales en alternance avec l’entreprise AMG Matériaux. Les missions qui m’ont été confiées sont : Relation clientèle/fournisseurs Gestion des stocks, réapprovisionnement sur EBP Gestion Gestion des sites Internet Ajout de nouveaux produits Rédaction de contenu pour le catalogue de la société Mes missions pour Arc Gestion Afin de réaliser la licence Marketing et Commerce sur Internet à l’IUT d’Evry, j’occupe le poste de webmarketeur au sein de la société Arc Gestion. Les missions qui me seront confiées au cours de cette année de formation sont : Refonte et mise à jour des sites Internet de la société Animation des sites web et des réseaux sociaux Promotions des produits Sage Petites Entreprises et services via Internet Suivi et analyse des ventes en ligne Mes centres d’intérêts Adepte du sport, je pratique le basketball depuis presque toujours. Aussi, la natation est pour moi un bon moyen de détente. Le cinéma est d’autre part un art qui m’intéresse beaucoup avec les acteurs comme Christian Bale, Tom Hardy ou encore Shia LaBoeuf.

@@ -1,0 +1,74 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const services = [
+  {
+    title: 'Nos Services',
+    description: 'Du conseil à la formation, une équipe expérimentée à votre service.',
+    href: '/notre-savoir-faire/services',
+    icon: '🛠️',
+  },
+  {
+    title: 'Nos Offres',
+    description: 'Découvrez nos offres adaptées à vos besoins : achat, location, abonnement.',
+    href: '/notre-savoir-faire/offres',
+    icon: '📦',
+  },
+  {
+    title: 'Nos Solutions',
+    description: 'Des solutions logicielles pour la gestion, la comptabilité et plus encore.',
+    href: '/notre-savoir-faire/solutions',
+    icon: '💡',
+  },
+  {
+    title: 'Nos Produits',
+    description: 'Les logiciels métiers pour le bâtiment, le négoce, les services et la mécanique.',
+    href: '/notre-savoir-faire/produits',
+    icon: '📱',
+  },
+]
+---
+
+<Layout title="Notre savoir-faire" description="Arc Gestion accompagne les petites entreprises dans la mise en place de solutions logicielles.">
+  <PageHeader
+    title="Notre savoir-faire"
+    subtitle="Arc Gestion accompagne les petites entreprises dans la mise en place de solutions logicielles. Nous intervenons en conseil avant vente, sur la mise en place, la formation et l'assistance technique."
+    breadcrumb={[{ name: 'Notre savoir-faire', href: '/notre-savoir-faire' }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        {services.map((service) => (
+          <a href={service.href} class="group bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-1">
+            <div class="text-5xl mb-4">{service.icon}</div>
+            <h2 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors">
+              {service.title}
+            </h2>
+            <p class="text-gray-600 mb-4">{service.description}</p>
+            <span class="inline-flex items-center gap-2 text-primary font-semibold">
+              En savoir plus
+              <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <!-- Résumé -->
+      <div class="bg-primary/5 rounded-2xl p-8 md:p-12">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl font-extrabold text-gray-800 mb-6">Notre approche</h2>
+          <p class="text-lg text-gray-600 mb-4">
+            Arc Gestion vous propose ses solutions logicielles pour la gestion, la comptabilité, la caisse, la paye en ligne, la télésauvegarde et ses abonnements aux produits et services.
+          </p>
+          <p class="text-lg text-gray-600">
+            Notre expertise nous permet de vous conseiller la solution la plus adaptée à votre métier et à vos besoins.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

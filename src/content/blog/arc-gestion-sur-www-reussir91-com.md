@@ -1,0 +1,8 @@
+---
+title: "Arc Gestion sur www.Reussir91.com"
+date: 2012-12-13
+excerpt: "Arc Gestion est mis en avant dans un article publié sur le site www.Reussir91.com. Reussir91.com est le site d’information de la Chambre des Commerces et de l’Industrie de l’Essonne."
+category: "Actualités"
+---
+
+Arc Gestion est mis en avant dans un article publié sur le site www.Reussir91.com. Reussir91.com est le site d’information de la Chambre des Commerces et de l’Industrie de l’Essonne. Extrait de l’article paru sur le site www.reussir91.fr concernant la société Arc Gestion et sa stratégie de communication / commercialisation via les outils internet: (…) Internet constitue la principale clé de croissance. Hautement stratégique, son site, a fait l’objet d’une assistance académique pour sa nouvelle version, plus offensive encore, alors que des services innovants se profilent. (…) « Ce site a été reconçu dans une optique de démarche « client » avec de nombreuses fonctionnalités tant au niveau de la vente que du marketing et de la communication, poursuit Frédéric Davi. Pour être le plus performant possible, et dans la continuité d’une relation engagée depuis 2009 avec l’IUT d’Evry Val d’Essonne (Ueve), j’ai fait appel à quatre étudiants dans le cadre de leur licence. Ils ont notamment effectué une analyse complète du marché avant de réaliser un cahier des charges précis de la nouvelle version du site. »(…). Antoine Zazzera, a pour mission l’alimentation, le référencement du nouveau site et le montage des offres pour la boutique en ligne (ouverture début 2013), dans la continuité du travail initié par les étudiants de la promo précédente. (…)

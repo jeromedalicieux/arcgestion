@@ -1,0 +1,95 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const produits = [
+  {
+    categorie: 'Bâtiment & BTP',
+    description: 'Logiciels pour plombiers, électriciens, chauffagistes et entreprises du BTP.',
+    items: [
+      { name: 'Sage Batigest i7', desc: 'Gestion complète pour artisans du bâtiment' },
+      { name: 'Sage Batigest Connect', desc: 'Solution cloud pour le BTP' },
+      { name: 'Codial Bâtiment', desc: 'ERP complet pour entreprises du bâtiment' },
+    ],
+    color: 'primary',
+  },
+  {
+    categorie: 'Mécanique automobile',
+    description: 'Solutions pour garages, carrosseries et concessionnaires.',
+    items: [
+      { name: 'Apimécanique Automobile', desc: 'Gestion de garage et carrosserie' },
+      { name: 'EBP Méca MROAD', desc: 'Solution moderne pour garages' },
+    ],
+    color: 'secondary',
+  },
+  {
+    categorie: 'Négoce',
+    description: 'Gestion commerciale pour le commerce de gros et détail.',
+    items: [
+      { name: 'Codial Négoce', desc: 'ERP avec CRM et GED intégrés' },
+      { name: 'Sage Apinégoce', desc: 'Gestion commerciale Sage' },
+      { name: 'Sage 50C Facturation', desc: 'Solution hybride cloud' },
+    ],
+    color: 'accent',
+  },
+  {
+    categorie: 'Services',
+    description: 'Gestion de contrats et interventions.',
+    items: [
+      { name: 'Codial Services', desc: 'Gestion de contrats et SAV' },
+      { name: 'Apiservices Multiservice', desc: 'Gestion de contrats de service' },
+    ],
+    color: 'orange',
+  },
+]
+---
+
+<Layout title="Nos Produits" description="Logiciels métiers pour le bâtiment, le négoce, les services et la mécanique automobile.">
+  <PageHeader
+    title="Nos Produits"
+    subtitle="Les logiciels métiers pour les petites entreprises. Des solutions adaptées à votre secteur d'activité."
+    breadcrumb={[
+      { name: 'Notre savoir-faire', href: '/notre-savoir-faire' },
+      { name: 'Nos Produits', href: '/notre-savoir-faire/produits' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="space-y-12">
+        {produits.map((cat) => (
+          <div class={`bg-${cat.color}/5 rounded-2xl p-8`}>
+            <h2 class={`text-2xl font-extrabold text-${cat.color} mb-2`}>{cat.categorie}</h2>
+            <p class="text-gray-600 mb-6">{cat.description}</p>
+            <div class="grid md:grid-cols-3 gap-4">
+              {cat.items.map((item) => (
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 class="font-bold text-gray-800 mb-2">{item.name}</h3>
+                  <p class="text-gray-600 text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section bg-primary">
+    <div class="container text-center">
+      <h2 class="text-3xl font-extrabold text-white mb-6">Trouvez le logiciel adapté à votre métier</h2>
+      <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+        Nos experts vous conseillent pour choisir la solution la plus adaptée.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/contact" class="btn bg-white text-primary hover:bg-gray-100">
+          Demander un devis
+        </a>
+        <a href="https://www.arcgestion.fr/boutique" target="_blank" class="btn btn-outline text-white border-white hover:bg-white hover:text-primary">
+          Voir la boutique
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const solutions = [
+  {
+    title: 'Gestion commerciale',
+    description: 'Optimisez vos cycles d\'achats et de ventes, votre gestion de stocks et vos actions commerciales.',
+    products: ['Codial', 'Sage Apinégoce', 'Sage 50C Facturation'],
+    color: 'primary',
+  },
+  {
+    title: 'Comptabilité',
+    description: 'Gérez votre comptabilité efficacement avec des outils adaptés aux TPE/PME.',
+    products: ['Sage 50C Comptabilité', 'Sage Comptabilité i7'],
+    color: 'secondary',
+  },
+  {
+    title: 'Logiciels métiers',
+    description: 'Des solutions spécialisées pour votre secteur d\'activité.',
+    products: ['Sage Batigest', 'Codial Bâtiment', 'Apimécanique', 'EBP Méca'],
+    color: 'accent',
+  },
+  {
+    title: 'ERP',
+    description: 'Une solution intégrée pour gérer l\'ensemble de votre activité.',
+    products: ['Codial ERP'],
+    color: 'orange',
+  },
+]
+---
+
+<Layout title="Nos Solutions" description="Des solutions logicielles pour la gestion, la comptabilité et plus encore. Sage et Codial.">
+  <PageHeader
+    title="Nos Solutions"
+    subtitle="Arc Gestion vous propose ses solutions logicielles pour la gestion, la comptabilité, la caisse, la paye en ligne et la télésauvegarde."
+    breadcrumb={[
+      { name: 'Notre savoir-faire', href: '/notre-savoir-faire' },
+      { name: 'Nos Solutions', href: '/notre-savoir-faire/solutions' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="prose prose-lg max-w-4xl mx-auto mb-12">
+        <p>
+          Notre société s'est spécialisée dans les solutions logicielles pour les petites entreprises. Nous vous proposons des solutions adaptées à vos besoins et à votre budget.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        {solutions.map((solution) => (
+          <div class={`bg-${solution.color}/5 rounded-2xl p-8`}>
+            <h2 class={`text-2xl font-extrabold text-${solution.color} mb-4`}>{solution.title}</h2>
+            <p class="text-gray-600 mb-6">{solution.description}</p>
+            <div class="space-y-2">
+              {solution.products.map((product) => (
+                <div class="flex items-center gap-2">
+                  <svg class={`w-5 h-5 text-${solution.color}`} fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="text-gray-700">{product}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Quelles solutions choisir -->
+      <div class="bg-gray-50 rounded-2xl p-8 md:p-12">
+        <h2 class="text-3xl font-extrabold text-gray-800 mb-6 text-center">Quelles solutions choisir ?</h2>
+        <div class="max-w-3xl mx-auto">
+          <div class="prose prose-lg">
+            <p>
+              <strong>Codial</strong> est un ERP pour les entreprises de 1 à plus de 100 utilisateurs. Il intègre des modules pour les sociétés du Bâtiment, du Service, de la Production, du Négoce et du commerce.
+            </p>
+            <p>
+              <strong>Sage</strong> est l'éditeur des solutions Apimécanique, Apinégoce, Apibâtiment et Apiservices. Ces logiciels métiers Sage Petites Entreprises répondent aux besoins des artisans et TPE.
+            </p>
+            <p>
+              Nous avons choisi ces 2 éditeurs pour leur savoir-faire et leurs compétences dans les domaines d'activité de nos clients : automobile, bâtiment, négoce et services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section bg-secondary">
+    <div class="container text-center">
+      <h2 class="text-3xl font-extrabold text-white mb-6">Besoin de conseils ?</h2>
+      <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+        Nos experts vous aident à choisir la solution la plus adaptée à votre activité.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/contact" class="btn bg-white text-secondary hover:bg-gray-100">
+          Demander conseil
+        </a>
+        <a href="/codial/demonstration" class="btn btn-outline text-white border-white hover:bg-white hover:text-secondary">
+          Démonstration gratuite
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

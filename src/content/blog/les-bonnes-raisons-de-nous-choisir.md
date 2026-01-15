@@ -1,0 +1,8 @@
+---
+title: "Les bonnes raisons de nous choisir"
+date: 2016-01-04
+excerpt: "Choisir Arc Gestion en tant que distributeur certifié et agréé Sage, c’est : – Distributeur Exclusif Sage PE et PME. Nous, nous avons fait le choix de nous spécialiser sur les solutions Sage. – Une..."
+category: "Actualités"
+---
+
+Choisir Arc Gestion en tant que distributeur certifié et agréé Sage, c’est : – Distributeur Exclusif Sage PE et PME. Nous, nous avons fait le choix de nous spécialiser sur les solutions Sage. – Une expertise reconnue: Distributeur certifié et agréé SAGE. – Des centaines de clients actifs sur toute le France (et en dehors!) : https://www.arcgestion.fr/actualite-information/259-arc-gestion-distributeur-sage-partout-en-france – Plus de 20 ans d’expertises auprès des Petites Entreprises, artisans et commerçants. – Un accompagnement avant-vente par un conseiller logiciel avec une écoute active ou un technico-commercial avec des propositions de solutions concrètes. – Une offre complète de services: conseils, installation, paramétrage, intégration, assistance, télémaintenance, formation,… – Une assistance technique réactive et proactive via les blogs et emails techniques. – Des outils innovants pour vous accompagner. Un Sage d’Or de l’innovation en 2014 – Des collaborateurs à multi-compétences: informatique de gestion, comptabilité, développement, management des organisations, gestion de la qualité,… – Une petite équipe dynamique de 4 personnes pour mieux vous suivre au quotidien. – Un suivi technique avec un système de gestion de ticket technique.

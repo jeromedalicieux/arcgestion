@@ -1,0 +1,8 @@
+---
+title: "Nouveau site internet"
+date: 2018-09-10
+excerpt: "Pour la rentrée 2018, Arc Gestion a mis en ligne son nouveau site internet. Nous avons voulu ce site plus clair, plus ergonomique et plus compatible avec la navigation sur tous type de support (PC,..."
+category: "Actualités"
+---
+
+Pour la rentrée 2018, Arc Gestion a mis en ligne son nouveau site internet. Nous avons voulu ce site plus clair, plus ergonomique et plus compatible avec la navigation sur tous type de support (PC, Tablette,…). Un changement technologique a été effectué avec la reprise de toutes les données dans l’ancien site. Vous ne perdez pas les informations historiques. Arc Gestion vous propose sur le site les produits et les services suivants: Logiciels: ERP Codial: Codial Négoce, Codial Bâtiment, Codial Service Logiciels Sage: Apibâtiment Batigest, Apimécanique Automobile, Comptabilité i7 PE Conseils sur les logiciels Installation, Paramétrages, Personnalisations sur les logiciels et ERP Formation en tant qu’organisme de formation déclarée en Préfecture d’Ile de France et sur Data Dock Assistance et Télémaintenance des utilisateurs sur les logiciels Sage et l’ERP Codial Matériels: Vente de matériel informatique (ordinateur, serveur, équipement réseau,…) Installation et configuration des matériels informatiques Télémaintenance et management de votre parc informatique Sécurité informatique: Antivirus managé sur votre installation Protection web (filtrage de la navigation, pare-feu,…) Antispam et contrôle de contenu de votre boite mail Télé sauvegarde: externalisation des données sensibles Cette liste est établie au 1er Septembre 2018. Elle peut évoluer selon les éditeurs, notre développement et selon nos ressources.

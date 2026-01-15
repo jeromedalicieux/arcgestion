@@ -1,0 +1,8 @@
+---
+title: "Opération commerciale : 10% sur la boutique en ligne"
+date: 2020-08-12
+excerpt: "Jusqu’au 15 Septembre 2020, vous pouvez bénéficier de 10% sur notre boutique en ligne Sage et Codial. Cette offre s’applique sur les packs de logiciels SAGE et CODIAL et services assurés par la soc..."
+category: "Actualités"
+---
+
+Jusqu’au 15 Septembre 2020, vous pouvez bénéficier de 10% sur notre boutique en ligne Sage et Codial. Cette offre s’applique sur les packs de logiciels SAGE et CODIAL et services assurés par la société Arc Gestion. Les packs comprennent : la licence et/ou l’abonnement du logiciel (selon éditeur), l’installation et une formation. Les packs sont proposés pour les logiciels suivants: Sage Batigest Sage Apinégoce Sage Apiservices Sage Apimécanique Codial Négoce Codial Services Codial Bâtiment Les packs sont constitués des offres les plus courantes. Notre service commercial peut établir un devis pour plus de postes que ce qui est proposé sur la boutique, des modules ou des options absents. En tant que distributeur agréé Sage Petites Entreprises et partenaire agréé Codial, nous sommes en mesure de vous proposer des packs Logiciels et Services plus adaptés à vos attentes. Aussi, n’hésitez pas à contacter notre service commercial au 09.72.47.67.37. Profitez de cette remise exceptionnelle de 10% sur les logiciels SAGE et sur l’ERP Codial pour vous équiper ou changer d’offre de logiciels.

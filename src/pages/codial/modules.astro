@@ -1,0 +1,95 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageHeader from '../../components/PageHeader.astro'
+
+const modules = [
+  {
+    title: 'GMAO',
+    description: 'Gestion de Maintenance Assistée par Ordinateur pour le suivi de vos équipements.',
+  },
+  {
+    title: 'Plan de charge',
+    description: 'Visualisez et optimisez la charge de travail de vos équipes.',
+  },
+  {
+    title: 'LiveTarif',
+    description: 'Tarifs en temps réel pour vos fournisseurs partenaires.',
+  },
+  {
+    title: 'Tableau de bord décisionnel',
+    description: 'Analysez vos données avec LivePilot pour prendre les bonnes décisions.',
+  },
+  {
+    title: 'Géolocalisation',
+    description: 'Suivez votre flotte de véhicules et vos techniciens en temps réel.',
+  },
+  {
+    title: 'Multi-sociétés',
+    description: 'Gérez plusieurs sociétés ou agences dans une seule installation.',
+  },
+  {
+    title: 'Lots et traçabilité',
+    description: 'Suivez vos produits par lots et assurez leur traçabilité.',
+  },
+  {
+    title: 'Réservation de stock',
+    description: 'Réservez des articles pour vos chantiers ou commandes.',
+  },
+  {
+    title: 'Compte prorata',
+    description: 'Gérez les comptes prorata de vos chantiers.',
+  },
+  {
+    title: 'Codial Formation',
+    description: 'Module dédié aux organismes de formation.',
+  },
+  {
+    title: 'Pack Maintenance',
+    description: 'Outils de maintenance préventive et curative.',
+  },
+  {
+    title: 'Codial Mobile',
+    description: 'Applications mobiles pour vos équipes terrain.',
+  },
+]
+---
+
+<Layout title="Modules Codial" description="Extensions et modules complémentaires pour Codial : GMAO, planning, décisionnel et plus.">
+  <PageHeader
+    title="Modules & Extensions"
+    subtitle="Personnalisez Codial avec des modules complémentaires adaptés à vos besoins."
+    breadcrumb={[
+      { name: 'Codial', href: '/codial' },
+      { name: 'Modules', href: '/codial/modules' }
+    ]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {modules.map((module) => (
+          <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-lg font-bold text-gray-800 mb-2">{module.title}</h3>
+            <p class="text-gray-600 text-sm">{module.description}</p>
+          </div>
+        ))}
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 bg-accent/10 rounded-2xl p-8 md:p-12 text-center">
+        <h2 class="text-3xl font-extrabold text-gray-800 mb-4">Besoin d'un module spécifique ?</h2>
+        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          Nos experts vous conseillent sur les modules les plus adaptés à votre activité.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="/contact" class="btn btn-primary">
+            Demander conseil
+          </a>
+          <a href="/codial/demonstration" class="btn btn-outline border-accent text-accent hover:bg-accent hover:text-white">
+            Démonstration gratuite
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

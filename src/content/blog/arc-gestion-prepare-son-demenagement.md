@@ -1,0 +1,8 @@
+---
+title: "Arc Gestion prépare son déménagement"
+date: 2016-08-11
+excerpt: "Arc Gestion prépare son déménagement et s’agrandit. L’équipe va rejoindre de nouveaux locaux, toujours situés en Essonne. Des locaux professionnels plus grands et plus proches d’autres commerces et..."
+category: "Actualités"
+---
+
+Arc Gestion prépare son déménagement et s’agrandit. L’équipe va rejoindre de nouveaux locaux, toujours situés en Essonne. Des locaux professionnels plus grands et plus proches d’autres commerces et sociétés pour privilégier la proximité physiques. Néanmoins, notre proximité et notre réactivité doivent toujours être notre priorité pour tous nos clients (quel que soit leur secteur géographique!). Dans quelques semaines, nous pourrons vous présenter en photos nos nouveaux bureaux. Au-delà de la surface de travail, c’est aussi l’équipe qui va s’agrandir avec des nouveaux collaborateurs et de nouveaux services.Fort de la demande récurrente de nos clients, nous pourrons vous proposer de gérer votre informatique aussi bien sur la partie logicielle mais aussi sur la partie matérielle. En effet, un nouveau service s’ouvre pour Arc Gestion : le pôle matériel et infrastructure. Deux techniciens seront concentrés sur l’installation et la maintenance des ordinateurs, des serveurs, des imprimantes et de l’infrastructure. Arc Gestion pourra également vous proposer du matériel d’impression et de photocopies dans des conditions très interessantes. Plus d’informations prochainement sur la date du déménagement et l’ouverture du nouveau service « matériel et infrastructure informatique ».
