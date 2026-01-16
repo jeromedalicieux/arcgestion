@@ -9,7 +9,6 @@ const navigation = [
       { name: 'Nos Références', href: '/notre-societe/references' },
       { name: 'Nos Compétences', href: '/notre-societe/competences' },
       { name: 'Nos Engagements', href: '/notre-societe/engagements' },
-      { name: 'Devenir Partenaire', href: '/notre-societe/devenir-partenaire' },
       { name: 'Contactez-nous', href: '/contact' },
     ]
   },
@@ -24,21 +23,14 @@ const navigation = [
     ]
   },
   {
-    name: 'Codial',
-    href: '/codial',
+    name: 'Actualités / Blogs / Forum',
+    href: '/blog',
     children: [
-      { name: 'Présentation Codial', href: '/codial' },
-      { name: 'Codial Bâtiment', href: '/codial/batiment' },
-      { name: 'Codial Négoce', href: '/codial/negoce' },
-      { name: 'Codial Services', href: '/codial/services' },
-      { name: 'Modules & Extensions', href: '/codial/modules' },
-      { name: 'Démonstration gratuite', href: '/codial/demonstration' },
+      { name: "Blog Actu' Arc Gestion", href: '/blog' },
+      { name: "Blog Tech' Arc Gestion", href: 'https://blog.arcgestion.fr', external: true },
+      { name: "Forum d'Entraide Logiciel", href: 'https://www.assistance-api.fr/index.php/forum/index', external: true },
+      { name: 'Blog Assistance Logiciel', href: 'https://www.assistance-api.fr/index.php/blog', external: true },
     ]
-  },
-  {
-    name: 'La boutique',
-    href: 'https://www.arcgestion.fr/boutique',
-    external: true
   },
 ]
 ---
@@ -76,19 +68,12 @@ const navigation = [
           <div class="relative group">
             <a
               href={item.href}
-              target={item.external ? '_blank' : undefined}
-              rel={item.external ? 'noopener noreferrer' : undefined}
               class="px-4 py-2 text-gray-700 hover:text-primary font-semibold flex items-center gap-1 transition-colors"
             >
               {item.name}
               {item.children && (
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-              )}
-              {item.external && (
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               )}
             </a>
@@ -98,9 +83,16 @@ const navigation = [
                   {item.children.map((child) => (
                     <a
                       href={child.href}
+                      target={'external' in child && child.external ? '_blank' : undefined}
+                      rel={'external' in child && child.external ? 'noopener noreferrer' : undefined}
                       class="block px-4 py-2 text-gray-600 hover:bg-primary/5 hover:text-primary transition-colors"
                     >
                       {child.name}
+                      {'external' in child && child.external && (
+                        <svg class="inline-block w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      )}
                     </a>
                   ))}
                 </div>
@@ -136,7 +128,6 @@ const navigation = [
         <div>
           <a
             href={item.href}
-            target={item.external ? '_blank' : undefined}
             class="block py-2 text-gray-700 hover:text-primary font-semibold"
           >
             {item.name}
@@ -146,9 +137,16 @@ const navigation = [
               {item.children.map((child) => (
                 <a
                   href={child.href}
+                  target={'external' in child && child.external ? '_blank' : undefined}
+                  rel={'external' in child && child.external ? 'noopener noreferrer' : undefined}
                   class="block py-1 text-gray-500 hover:text-primary text-sm"
                 >
                   {child.name}
+                  {'external' in child && child.external && (
+                    <svg class="inline-block w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  )}
                 </a>
               ))}
             </div>
